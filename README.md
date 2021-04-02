@@ -2,6 +2,10 @@
 
 > This is a curated list of Web Components design systems, librairies and resources.
 
+- Web Components are the **native component model** on the web platform.
+- Web Components **exposes capabilities** previously reserved for native code
+- Web Components are **low level** DOM APIs
+
 ## Contents
 
 - [Component Libraries](#component-libraries)
@@ -12,6 +16,7 @@
 - [Microsoft Fast](https://fast.design/) ❤︎
 - [Microsoft Graph](https://github.com/microsoftgraph/microsoft-graph-toolkit)
   ⇢ [StoryBook](https://mgt.dev/)
+- [PatternFly Design System](https://github.com/patternfly/patternfly-elements)
 - [SAP UI5](https://github.com/SAP/ui5-webcomponents)
 ### Built with [Lit-element](https://github.com/Polymer/lit-element)
 
@@ -28,7 +33,7 @@
 - [IBM Carbon Design System](https://github.com/carbon-design-system/carbon-custom-elements)
   ⇢ [StoryBook](https://web-components.carbondesignsystem.com/)
 - [Kor UI Design System](https://kor-ui.com/)
-- [Lion](https://github.com/ing-bank/lion)
+- [ING Lion](https://github.com/ing-bank/lion)
 - [Lithium UI](https://github.com/coryrylan/lithium)
 - [Zedix UI](https://github.com/zedix/zedix-ui)
 
@@ -39,3 +44,19 @@
 - [Duet Design System](https://www.duetds.com/) ❤︎
 - [Elix](https://component.kitchen/elix)
 - [Shoelace](https://shoelace.style/) ❤︎
+
+## Sites build entirely with Web Components
+
+- [Fast](https://www.fast.design/)
+- [Ideanote](https://ideanote.io/)
+
+
+## [Specifications](https://github.com/WICG/webcomponents)
+
+- [DOM](https://dom.spec.whatwg.org/)
+- [Shadow DOM](https://www.w3.org/TR/shadow-dom/)
+
+### Specification Reviews
+
+- [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494)
+> A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
