@@ -8,7 +8,20 @@
 
 ## Contents
 
+- [Libraries](#libraries)
 - [Component Libraries](#component-libraries)
+
+## Libraries
+
+Some tools/libraries that simplify using the low-level APIs:
+
+- [LitElement](https://github.com/Polymer/lit-element)
+- [SkateJS](https://github.com/skatejs/skatejs)
+- [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
+- [Hybrids](https://hybrids.js.org/)
+- [Atomico](https://github.com/atomicojs/atomico)
+- [µce+µhtml](https://github.com/WebReflection/uce)
+  ⇢ [µce vs lit-element](https://gist.github.com/WebReflection/ae3451c17c5e882bbc7f0714c14eefcd)
 
 ## Component Libraries
 
@@ -18,6 +31,7 @@
 - [Microsoft Graph](https://github.com/microsoftgraph/microsoft-graph-toolkit)
   ⇢ [StoryBook](https://mgt.dev/)
 - [PatternFly Design System](https://github.com/patternfly/patternfly-elements)
+- [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)
 - [SAP UI5](https://github.com/SAP/ui5-webcomponents)
 - [Vaddin](https://vaadin.com/components)
 
@@ -25,18 +39,18 @@
 
 ![lit-element](https://img.shields.io/badge/lib-lit--element-blue.svg?maxAge=60)
 
-- [Alaska Airlines Auro Design System](https://auro.alaskaair.com/)
-- [AXA Pattern Library ](https://github.com/axa-ch/patterns-library)
+- [Auro Design System by Alaska Airlines](https://auro.alaskaair.com/)
+- [AXA Pattern Library](https://github.com/axa-ch/patterns-library)
   ⇢ [StoryBook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
 - [Blackstone UI](https://github.com/kjantzer/bui)
 - [Chameleon Design System](https://github.com/MaritzSTL/chameleon)
   ⇢ [StoryBook](https://chameleon-design-system.netlify.app/?path=/story/*)
 - [Clever UI](https://github.com/CleverCloud/clever-components)
   ⇢ [StoryBook](https://www.clever-cloud.com/doc/clever-components/)
-- [IBM Carbon Design System](https://github.com/carbon-design-system/carbon-custom-elements)
+- [Carbon Design System by IBM](https://github.com/carbon-design-system/carbon-custom-elements)
   ⇢ [StoryBook](https://web-components.carbondesignsystem.com/)
 - [Kor UI Design System](https://kor-ui.com/)
-- [ING Lion](https://github.com/ing-bank/lion)
+- [Lion by ING](https://github.com/ing-bank/lion)
 - [Lithium UI](https://github.com/coryrylan/lithium)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
 - [Weightless](https://weightless.dev/)
@@ -46,14 +60,14 @@
 
 ![lit-stencil](https://img.shields.io/badge/lib-lit--stencil-blue.svg?maxAge=60)
 
-- [Duet Design System](https://www.duetds.com/)
+- [Duet Design System by LocalTapiola](https://www.duetds.com/)
+- [Scale Design System By Telekom](https://github.com/telekom/scale)
 - [Elix](https://component.kitchen/elix)
 
 ## Sites build entirely with Web Components
 
 - [Fast](https://www.fast.design/)
 - [Ideanote](https://ideanote.io/)
-
 
 ## [Specifications](https://github.com/WICG/webcomponents)
 
@@ -80,7 +94,9 @@ Web components is a meta-specification made possible by the above specifications
 - [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494)
 > A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
 
-- [Form-associated custom elements (attachInternals)](https://www.chromestatus.com/feature/4708990554472448)
+- [Form-associated custom elements (attachInternals)](https://github.com/whatwg/html/pull/4383)
+  ⇢ [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
+  ⇢ [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
 
 - [Shadow DOM Delegate Focus](https://blog.whatwg.org/focusing-on-focus)
 > When the shadow root of an element has delegates focus flag set, focusing on the shadow host would automatically “delegates” focus to the first focusable element in the shadow tree instead.
