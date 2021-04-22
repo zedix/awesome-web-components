@@ -10,18 +10,26 @@
 
 - [Libraries](#libraries)
 - [Component Libraries](#component-libraries)
+- [Sites build entirely with Web Components](sites-build-entirely-with-web-components)
+- [Specification Drafts, Reviews & Explainers](specification-drafts-reviews--explainers)
+- [Articles](#articles)
 
 ## Libraries
 
-Some tools/libraries that simplify using the low-level APIs:
+Some tools/libraries that simplify <code>Custom Elements</code> definition and content:
 
-- [LitElement](https://github.com/Polymer/lit-element)
+- [Lit](https://lit.dev/)
+- [Fast](https://github.com/microsoft/fast)
 - [SkateJS](https://github.com/skatejs/skatejs)
 - [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
-- [Hybrids](https://hybrids.js.org/)
 - [Atomico](https://github.com/atomicojs/atomico)
+- [Hybrids](https://hybrids.js.org/)
 - [µce+µhtml](https://github.com/WebReflection/uce)
   ⇢ [µce vs lit-element](https://gist.github.com/WebReflection/ae3451c17c5e882bbc7f0714c14eefcd)
+  ⇢ [µce does @vue/lit things](https://codepen.io/WebReflection/pen/LYNJwoV?editors=0010)
+
+- [µce-template+µce-loader]
+> uce-template is a 100% Custom Elements based library, which goal is to help defining portable components once, but usable everywhere, directly in the HTML. Combined with µce-loader, it is possible to stream definitions, as these are found in the page, making uce-template an ideal static/server page companion for graceful, client-side, enhancement.
 
 ## Component Libraries
 
@@ -47,12 +55,14 @@ Some tools/libraries that simplify using the low-level APIs:
   ⇢ [StoryBook](https://chameleon-design-system.netlify.app/?path=/story/*)
 - [Clever UI](https://github.com/CleverCloud/clever-components)
   ⇢ [StoryBook](https://www.clever-cloud.com/doc/clever-components/)
-- [Carbon Design System by IBM](https://github.com/carbon-design-system/carbon-custom-elements)
+- [Carbon by IBM](https://github.com/carbon-design-system/carbon-custom-elements)
   ⇢ [StoryBook](https://web-components.carbondesignsystem.com/)
 - [Kor UI Design System](https://kor-ui.com/)
 - [Lion by ING](https://github.com/ing-bank/lion)
 - [Lithium UI](https://github.com/coryrylan/lithium)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
+- [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
+- [ClarityCore by vmware](https://clarity.design/storybook/core/)
 - [Weightless](https://weightless.dev/)
 - [Zedix UI](https://github.com/zedix/zedix-ui)
 
@@ -111,3 +121,37 @@ Web components is a meta-specification made possible by the above specifications
 - [Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
 - [The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
 - [GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
+
+## Companies using Web Components
+
+- Adobe
+- Amazon
+- Apple
+- Blizzard
+- BYU
+- Caniuse
+- Comcast
+- CSS Tricks
+- EA
+- ESRI
+- Ford
+- GE
+- Github
+- GM
+- Google
+- IBM
+- Infragistics
+- ING
+- Internet Archive
+- Ionic
+- MSFT
+- NASA
+- Netlify
+- Nintendo
+- Penn State
+- RedHat
+- Salesforce
+- SAP
+- SpaceX
+- Ubisoft
+- …
