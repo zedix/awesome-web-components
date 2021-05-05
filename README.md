@@ -33,6 +33,7 @@ Some tools/libraries that simplify <code>Custom Elements</code> definition and c
 
 ## Component Libraries
 
+- [GitHub Elements](https://github.com/github/github-elements)
 - [Google Material](https://github.com/material-components/material-components-web-components)
 - [Helix UI](https://helixdesignsystem.github.io/helix-ui/)
 - [Microsoft Fast](https://fast.design/)
@@ -62,7 +63,7 @@ Some tools/libraries that simplify <code>Custom Elements</code> definition and c
 - [Lithium UI](https://github.com/coryrylan/lithium)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
 - [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
-- [ClarityCore by vmware](https://clarity.design/storybook/core/)
+- [ClarityCore by VMware](https://clarity.design/storybook/core/)
 - [Weightless](https://weightless.dev/)
 - [Zedix UI](https://github.com/zedix/zedix-ui)
 
@@ -103,6 +104,7 @@ Web components is a meta-specification made possible by the above specifications
 
 - [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494)
 > A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
+  ⇢ [Chrome 90](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
 
 - [Form-associated custom elements (attachInternals)](https://github.com/whatwg/html/pull/4383)
   ⇢ [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
@@ -154,4 +156,5 @@ Web components is a meta-specification made possible by the above specifications
 - SAP
 - SpaceX
 - Ubisoft
+- VMware
 - …
