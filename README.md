@@ -1,6 +1,6 @@
 # Awesome Web Components [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> This is a curated list of Web Components design systems, librairies and resources.
+> This is a curated list of Web Components design systems, libraries and resources.
 
 - Web Components are the **native component model** on the web platform.
 - Web Components **exposes capabilities** previously reserved for native code
@@ -97,25 +97,29 @@ Web components is a meta-specification made possible by the above specifications
   - [CSS Scoping](https://drafts.csswg.org/css-scoping/)
   - [CSS Shadow Parts](https://drafts.csswg.org/css-shadow-parts/)
 
-- JSON, [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
+- [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
 
 
 ## Specification Drafts, Reviews & Explainers
 
 - [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494)
 > A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
-  ⇢ [Chrome 90](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
+  - [Chrome 90](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
 
 - [Form-associated custom elements (attachInternals)](https://github.com/whatwg/html/pull/4383)
-  ⇢ [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
-  ⇢ [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
+  - [HTML Living Standard](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example)
+  - [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
+  - [Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1552327)
+  - [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
+
 
 - [Shadow DOM Delegate Focus](https://blog.whatwg.org/focusing-on-focus)
 > When the shadow root of an element has delegates focus flag set, focusing on the shadow host would automatically “delegates” focus to the first focusable element in the shadow tree instead.
 
 - [CSSOM Constructable Stylesheet Objects](https://wicg.github.io/construct-stylesheets/)
 
-- [:state() custom state pseudo class](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/custom-states-and-state-pseudo-class.md)
+- [:state() custom state pseudo class](https://wicg.github.io/custom-state-pseudo-class/)
+  - [Chrome 90](https://www.chromestatus.com/feature/6537562418053120)
 
 ## Articles
 
