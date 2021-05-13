@@ -103,8 +103,9 @@ Web components is a meta-specification made possible by the above specifications
 ## Specification Drafts, Reviews & Explainers
 
 - [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494)
-> A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
   - [Chrome 90](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
+
+> A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
 
 - [Form-associated custom elements (attachInternals)](https://github.com/whatwg/html/pull/4383)
   - [HTML Living Standard](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example)
@@ -118,8 +119,9 @@ Web components is a meta-specification made possible by the above specifications
 
 - [CSSOM Constructable Stylesheet Objects](https://wicg.github.io/construct-stylesheets/)
 
-- [:state() custom state pseudo class](https://wicg.github.io/custom-state-pseudo-class/)
+- [my-element:--my-state custom state pseudo class](https://wicg.github.io/custom-state-pseudo-class/)
   - [Chrome 90](https://www.chromestatus.com/feature/6537562418053120)
+  - [This feature is not (yet) a standard](https://css-tricks.com/custom-state-pseudo-classes-in-chrome/#this-feature-is-not-yet-a-standard)
 
 ## Articles
 
