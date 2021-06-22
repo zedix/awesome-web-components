@@ -16,7 +16,7 @@
 
 ## Libraries
 
-Some tools/libraries that simplify <code>Custom Elements</code> definition and content:
+Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/board/) that simplify <code>Custom Elements</code> definition and content:
 
 - [Lit](https://lit.dev/)
 - [Fast](https://github.com/microsoft/fast)
@@ -59,8 +59,10 @@ Some tools/libraries that simplify <code>Custom Elements</code> definition and c
 - [Carbon by IBM](https://github.com/carbon-design-system/carbon-custom-elements)
   ⇢ [StoryBook](https://web-components.carbondesignsystem.com/)
 - [Kor UI Design System](https://kor-ui.com/)
+- [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
 - [Lion by ING](https://github.com/ing-bank/lion)
 - [Lithium UI](https://github.com/coryrylan/lithium)
+- [Nordhealth Design System](https://nordhealth.design/)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
 - [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
 - [ClarityCore by VMware](https://clarity.design/storybook/core/)
@@ -78,11 +80,14 @@ Some tools/libraries that simplify <code>Custom Elements</code> definition and c
 ## Sites build entirely with Web Components
 
 - [Fast](https://www.fast.design/)
-- [Ideanote](https://ideanote.io/)
+- [Ideanote](https://start.ideanote.io/)
+- [DeckDeckGo](https://app.deckdeckgo.com/)
+- [Simplr](https://simplr.company/)
+- [ViteMaDose](https://vitemadose.covidtracker.fr/)
 
 ## [Specifications](https://github.com/WICG/webcomponents)
 
-Web components is a meta-specification made possible by the above specifications:
+Web components is a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
 
 - Shadow DOM
   - [DOM Standard › Shadow DOM](https://dom.spec.whatwg.org/#shadow-trees)
@@ -129,6 +134,14 @@ Web components is a meta-specification made possible by the above specifications
 - [Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
 - [The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
 - [GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
+- [Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
+- [Links on Web Components](https://css-tricks.com/links-on-web-components/)
+- [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
+- [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
+
+## Stats
+
+- [Percentage of page loads that use custom element](https://www.chromestatus.com/metrics/feature/timeline/popularity/1689)
 
 ## Companies using Web Components
 
