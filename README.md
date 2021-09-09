@@ -64,7 +64,8 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Lithium UI](https://github.com/coryrylan/lithium)
 - [Nordhealth Design System](https://nordhealth.design/)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
-- [Vaddin](https://github.com/vaadin/web-components) ❤︎
+- [Vaadin](https://github.com/vaadin/web-components) ❤︎
+  -> [Documentation](https://vaadin.com/docs/latest/ds/overview)
 - [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
 - [ClarityCore by VMware](https://clarity.design/storybook/core/)
 - [Weightless](https://weightless.dev/)
