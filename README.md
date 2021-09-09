@@ -19,6 +19,7 @@
 Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/board/) that simplify <code>Custom Elements</code> definition and content:
 
 - [Lit](https://lit.dev/)
+  - [Community protocols](https://github.com/webcomponents/community-protocols)
 - [Fast](https://github.com/microsoft/fast)
 - [SkateJS](https://github.com/skatejs/skatejs)
 - [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
@@ -42,7 +43,6 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [PatternFly Design System](https://github.com/patternfly/patternfly-elements)
 - [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)
 - [SAP UI5](https://github.com/SAP/ui5-webcomponents)
-- [Vaddin](https://vaadin.com/components)
 
 ### Built with [Lit-element](https://github.com/Polymer/lit-element)
 
@@ -64,6 +64,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Lithium UI](https://github.com/coryrylan/lithium)
 - [Nordhealth Design System](https://nordhealth.design/)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
+- [Vaddin](https://github.com/vaadin/web-components) ❤︎
 - [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
 - [ClarityCore by VMware](https://clarity.design/storybook/core/)
 - [Weightless](https://weightless.dev/)
@@ -87,7 +88,8 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## [Specifications](https://github.com/WICG/webcomponents)
 
-Web components is a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
+Web components are a collection of web standards that enable an HTML native component model.
+They are a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
 
 - Shadow DOM
   - [DOM Standard › Shadow DOM](https://dom.spec.whatwg.org/#shadow-trees)
@@ -139,11 +141,25 @@ Web components is a meta-specification made possible by the above [specification
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
 - [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
 
+## Frameworks & Routers
+
+- [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/)
+> The goal of Crossbow is to be the _Next.js_ for web-components.
+
+- [Rocket](https://rocket.modern-web.dev/)
+> A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
+
+- [Appolo Elements](https://apolloelements.dev/)
+
+- [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
+
 ## Stats
 
 - [Percentage of page loads that use custom element](https://www.chromestatus.com/metrics/feature/timeline/popularity/1689)
 
 ## Companies using Web Components
+
+Major technology organizations investing in the future of web components:
 
 - Adobe
 - Amazon
