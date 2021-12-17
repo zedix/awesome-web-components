@@ -194,3 +194,10 @@ Major technology organizations investing in the future of web components:
 - Ubisoft
 - VMware
 - …
+
+## Resources
+
+- [Awesome Lit](https://nicedoc.io/web-padawan/awesome-lit)
+- [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
+- [Are Web Components A Thing Yet](https://arewebcomponentsathingyet.com/)
+- [All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
