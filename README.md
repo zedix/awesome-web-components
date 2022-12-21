@@ -6,6 +6,26 @@
 - Web Components **exposes capabilities** previously reserved for native code
 - Web Components are **low level** DOM APIs
 
+```js
+import sheet from './styles.css';
+
+class MyElement extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' });
+    this.shadowRoot.adoptedStyleSheets = [sheet];
+  }
+  connectedCallback() {}
+  disconnectedCallback() {}
+  attributeChangedCallback() {}
+  adoptedCallback() {}
+  static get observedAttributes() {
+    return ['foo'];
+  }
+}
+```
+
+
 ## Contents
 
 - [Libraries](#libraries)
@@ -118,7 +138,7 @@ They are a meta-specification made possible by the above [specifications](https:
 - [Form-associated custom elements (attachInternals)](https://github.com/whatwg/html/pull/4383)
   - [HTML Living Standard](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example)
   - [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
-  - [Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1552327)
+  - [FF 98](https://bugzilla.mozilla.org/show_bug.cgi?id=1745378)
   - [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
 
 
@@ -141,6 +161,12 @@ They are a meta-specification made possible by the above [specifications](https:
 - [Links on Web Components](https://css-tricks.com/links-on-web-components/)
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
 - [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
+
+
+## Resources
+
+- [Web Components Community](https://community.webcomponents.dev/)
+- [The bright future of Web Components](https://maxart2501.github.io/web-components-talk/codemotion-rm20/#63)
 
 ## Frameworks & Routers
 
