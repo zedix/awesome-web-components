@@ -130,9 +130,12 @@ They are a meta-specification made possible by the above [specifications](https:
 
 ## Specification Drafts, Reviews & Explainers
 
-- [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494)
+- [Declarative Shadow DOM (DSD)](https://github.com/dwhatwg/html/pull/5465)
   - [Chrome 90 (`shadowroot` — non-standard)](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
   - [Chrome 111 (`shadowrootmode` — standardized)](https://developer.chrome.com/en/articles/declarative-shadow-dom/)
+  - [Safari Technology Preview 162](https://webkit.org/blog/13851/declarative-shadow-dom/)
+    - [Streaming DSD: Chromium Intent to Ship](https://groups.google.com/a/chromium.org/g/blink-dev/c/xzT-vN-bx0s/m/qWrGNWwQAAAJ?pli=1)
+    - [Streaming DSD: Playground](https://lit.dev/playground/#gist=d2540b636f7d9d420c2dd8ddd8436c81)
 
 > A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
 
@@ -140,6 +143,7 @@ They are a meta-specification made possible by the above [specifications](https:
   - [HTML Living Standard](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example)
   - [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
   - [FF 98](https://bugzilla.mozilla.org/show_bug.cgi?id=1745378)
+  - [Safari Technology Preview 162](https://webkit.org/blog/13851/declarative-shadow-dom/)
   - [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
 
 
@@ -213,6 +217,7 @@ Major technology organizations investing in the future of web components:
 
 ## Resources
 
+- [📈 Custom Element Popularity (`CustomElementRegistryDefine` stats)](https://chromestatus.com/metrics/feature/timeline/popularity/1689)
 - [Are Web Components A Thing Yet](https://arewebcomponentsathingyet.com/)
 - [Web Components Community](https://community.webcomponents.dev/)
 - [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
@@ -227,6 +232,7 @@ Major technology organizations investing in the future of web components:
 - [2019-11-07 — The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
 - [2020-03-27 — The bright future of Web Components](https://maxart2501.github.io/web-components-talk/codemotion-rm20/#63)
 - [2021-05-15 — Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
-- [2021 2021-05-26 — Links on Web Components](https://css-tricks.com/links-on-web-components/)
+- [2021-05-26 — Links on Web Components](https://css-tricks.com/links-on-web-components/)
 - [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
 - [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
+- [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
