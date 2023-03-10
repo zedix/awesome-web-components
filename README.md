@@ -131,7 +131,8 @@ They are a meta-specification made possible by the above [specifications](https:
 ## Specification Drafts, Reviews & Explainers
 
 - [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494)
-  - [Chrome 90](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
+  - [Chrome 90 (`shadowroot` — non-standard)](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
+  - [Chrome 111 (`shadowrootmode` — standardized)](https://developer.chrome.com/en/articles/declarative-shadow-dom/)
 
 > A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
 
@@ -151,22 +152,7 @@ They are a meta-specification made possible by the above [specifications](https:
   - [Chrome 90](https://www.chromestatus.com/feature/6537562418053120)
   - [This feature is not (yet) a standard](https://css-tricks.com/custom-state-pseudo-classes-in-chrome/#this-feature-is-not-yet-a-standard)
 
-## Articles
 
-- [A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
-- [Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
-- [The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
-- [GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
-- [Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
-- [Links on Web Components](https://css-tricks.com/links-on-web-components/)
-- [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
-- [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
-
-
-## Resources
-
-- [Web Components Community](https://community.webcomponents.dev/)
-- [The bright future of Web Components](https://maxart2501.github.io/web-components-talk/codemotion-rm20/#63)
 
 ## Frameworks & Routers
 
@@ -221,9 +207,26 @@ Major technology organizations investing in the future of web components:
 - VMware
 - …
 
+## Accessibility
+
+- [How Shadow DOM and accessibility are in conflict](https://alice.pages.igalia.com/blog/how-shadow-dom-and-accessibility-are-in-conflict/)
+
 ## Resources
 
+- [Are Web Components A Thing Yet](https://arewebcomponentsathingyet.com/)
+- [Web Components Community](https://community.webcomponents.dev/)
+- [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
 - [Awesome Lit](https://nicedoc.io/web-padawan/awesome-lit)
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
-- [Are Web Components A Thing Yet](https://arewebcomponentsathingyet.com/)
-- [All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
+
+## Articles
+
+- [2017-03-14 — Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
+- [2018-09-06 — GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
+- [2019-04-08 — A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
+- [2019-11-07 — The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
+- [2020-03-27 — The bright future of Web Components](https://maxart2501.github.io/web-components-talk/codemotion-rm20/#63)
+- [2021-05-15 — Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
+- [2021 2021-05-26 — Links on Web Components](https://css-tricks.com/links-on-web-components/)
+- [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
+- [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
