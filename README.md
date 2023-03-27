@@ -101,11 +101,20 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Sites build entirely with Web Components
 
+- [MSN](https://www.msn.com/fr-fr)
+- [YouTube](https://www.youtube.com/)
+- [Photoshop](https://web.dev/ps-on-the-web/)
 - [Fast](https://www.fast.design/)
 - [Ideanote](https://start.ideanote.io/)
 - [DeckDeckGo](https://app.deckdeckgo.com/)
 - [Simplr](https://simplr.company/)
 - [ViteMaDose](https://vitemadose.covidtracker.fr/)
+
+## Sites using Lit elements
+
+- [ChromeDevTools](https://twitter.com/steren/status/1633359619874754561?s=20) (`<devtools-button>`)
+- [Reddit](https://twitter.com/43081j/status/1634860644372561921) (`<shreddit-mod-comment>`)
+- [TikTok](https://twitter.com/justinfagnani/status/1633831934643273730) (`<cookie-settings-modal>`)
 
 ## [Specifications](https://github.com/WICG/webcomponents)
 
@@ -221,7 +230,7 @@ Major technology organizations investing in the future of web components:
 - [Are Web Components A Thing Yet](https://arewebcomponentsathingyet.com/)
 - [Web Components Community](https://community.webcomponents.dev/)
 - [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
-- [Awesome Lit](https://nicedoc.io/web-padawan/awesome-lit)
+- [Awesome Lit](https://github.com/web-padawan/awesome-lit)
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
 
 ## Articles
@@ -236,3 +245,4 @@ Major technology organizations investing in the future of web components:
 - [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
 - [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
+- [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61)
