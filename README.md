@@ -106,7 +106,6 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Photoshop](https://web.dev/ps-on-the-web/)
 - [Fast](https://www.fast.design/)
 - [Ideanote](https://start.ideanote.io/)
-- [DeckDeckGo](https://app.deckdeckgo.com/)
 - [Simplr](https://simplr.company/)
 - [ViteMaDose](https://vitemadose.covidtracker.fr/)
 
@@ -115,6 +114,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [ChromeDevTools](https://twitter.com/steren/status/1633359619874754561?s=20) (`<devtools-button>`)
 - [Reddit](https://twitter.com/43081j/status/1634860644372561921) (`<shreddit-mod-comment>`)
 - [TikTok](https://twitter.com/justinfagnani/status/1633831934643273730) (`<cookie-settings-modal>`)
+- [Figma](https://twitter.com/ChrisDHolt/status/1584982495887781890?s=20)
 
 ## [Specifications](https://github.com/WICG/webcomponents)
 
@@ -181,7 +181,7 @@ They are a meta-specification made possible by the above [specifications](https:
 
 ## Stats
 
-- [Percentage of page loads that use custom element](https://www.chromestatus.com/metrics/feature/timeline/popularity/1689)
+- [Percentage of page loads that use custom element: over 18%](https://www.chromestatus.com/metrics/feature/timeline/popularity/1689)
 
 ## Companies using Web Components
 
@@ -245,4 +245,4 @@ Major technology organizations investing in the future of web components:
 - [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
 - [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
-- [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61)
+- [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) — by Rob Eisenberg from the FAST team
