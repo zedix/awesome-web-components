@@ -68,6 +68,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ![lit-element](https://img.shields.io/badge/lib-lit--element-blue.svg?maxAge=60)
 
+- [Astro Space UX Design System](https://www.astrouxds.com/)
 - [Auro Design System by Alaska Airlines](https://auro.alaskaair.com/)
 - [AXA Pattern Library](https://github.com/axa-ch/patterns-library)
   ⇢ [StoryBook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
@@ -102,6 +103,8 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## Sites build entirely with Web Components
 
 - [MSN](https://www.msn.com/fr-fr)
+> A couple of years back, Microsoft re-built the MSN experience with Web Components based on FAST. This improved performance by 30%–50% over the previous React version.
+
 - [YouTube](https://www.youtube.com/)
 - [Photoshop](https://web.dev/ps-on-the-web/)
 - [Fast](https://www.fast.design/)
@@ -115,6 +118,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Reddit](https://twitter.com/43081j/status/1634860644372561921) (`<shreddit-mod-comment>`)
 - [TikTok](https://twitter.com/justinfagnani/status/1633831934643273730) (`<cookie-settings-modal>`)
 - [Figma](https://twitter.com/ChrisDHolt/status/1584982495887781890?s=20)
+- [SpaceX](https://www.reddit.com/r/spacex/comments/gxb7j1/comment/ft6bydt/)
 
 ## [Specifications](https://github.com/WICG/webcomponents)
 
@@ -175,6 +179,8 @@ They are a meta-specification made possible by the above [specifications](https:
 - [Rocket](https://rocket.modern-web.dev/)
 > A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 
+- [Enhance](https://enhance.dev/)
+
 - [Appolo Elements](https://apolloelements.dev/)
 
 - [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
@@ -232,6 +238,7 @@ Major technology organizations investing in the future of web components:
 - [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
 - [Awesome Lit](https://github.com/web-padawan/awesome-lit)
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
+- [Starter Templates](https://webcomponents.today/starter-templates/)
 
 ## Articles
 
