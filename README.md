@@ -25,7 +25,6 @@ class MyElement extends HTMLElement {
 }
 ```
 
-
 ## Contents
 
 - [Latest Articles](#articles)
@@ -49,6 +48,77 @@ class MyElement extends HTMLElement {
 - [2019-04-08 — A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
 - [2018-09-06 — GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
 - [2017-03-14 — Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
+
+## Specifications (W3C Web Components Community Group)
+
+Web components are a collection of [web standards](https://github.com/WICG/webcomponents) that enable an HTML native component model.
+They are a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
+
+- Shadow DOM
+  - [DOM Standard › Shadow DOM](https://dom.spec.whatwg.org/#shadow-trees)
+
+- Custom Elements
+  - [HTML Standard › Custom Elements](https://html.spec.whatwg.org/multipage/scripting.html#custom-elements)
+  - [Form Associated Custom Elements (Fully Supported)](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals/form)
+
+- HTML Templates
+  - [HTML Standard › HTML Templates](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element)
+
+- CSS changes
+  - [CSS Scoping](https://drafts.csswg.org/css-scoping/)
+  - [CSS Shadow Parts](https://drafts.csswg.org/css-shadow-parts/)
+
+
+- [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
+
+
+## Drafts, Reviews & Explainers
+
+- [Declarative Shadow DOM (DSD)](https://github.com/dwhatwg/html/pull/5465)
+  - [Chrome 90 (`shadowroot` — non-standard)](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
+  - [Chrome 111 (`shadowrootmode` — standardized)](https://developer.chrome.com/en/articles/declarative-shadow-dom/)
+  - [Safari Technology Preview 162](https://webkit.org/blog/13851/declarative-shadow-dom/)
+    - [Streaming DSD: Chromium Intent to Ship](https://groups.google.com/a/chromium.org/g/blink-dev/c/xzT-vN-bx0s/m/qWrGNWwQAAAJ?pli=1)
+    - [Streaming DSD: Playground](https://lit.dev/playground/#gist=d2540b636f7d9d420c2dd8ddd8436c81)
+
+> A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
+
+- [Form-associated custom elements (attachInternals)](https://github.com/whatwg/html/pull/4383)
+  - [HTML Living Standard](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example)
+  - [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
+  - [FF 98](https://bugzilla.mozilla.org/show_bug.cgi?id=1745378)
+  - [Safari Technology Preview 162](https://webkit.org/blog/13851/declarative-shadow-dom/)
+  - [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
+
+
+- [Shadow DOM Delegate Focus](https://blog.whatwg.org/focusing-on-focus)
+> When the shadow root of an element has delegates focus flag set, focusing on the shadow host would automatically “delegates” focus to the first focusable element in the shadow tree instead.
+
+- [CSSOM Constructable Stylesheet Objects](https://wicg.github.io/construct-stylesheets/)
+- [CSS Custom States (Chromium)](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet)
+- [CSS Theming (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#theming)
+
+- [my-element:--my-state custom state pseudo class](https://wicg.github.io/custom-state-pseudo-class/)
+  - [Chrome 90](https://www.chromestatus.com/feature/6537562418053120)
+  - [This feature is not (yet) a standard](https://css-tricks.com/custom-state-pseudo-classes-in-chrome/#this-feature-is-not-yet-a-standard)
+
+- [Children Changed Callback (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#children-changed-callback)
+- [Custom Attributes (Identified)](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
+- [Composed Selection (Consensus/No Spec)](https://w3c.github.io/webcomponents-cg/2022.html#initial-api-summary-quick-api-proposal-0)
+- [Declarative Custom Element (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#declarative-custom-elements)
+
+- Rendering & Performance
+  - [Declarative Shadow DOM (Mostly Supported)](https://developer.chrome.com/articles/declarative-shadow-dom/)
+
+- Template Instantiation
+  - [DOM Parts (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#initial-api-summary-quick-api-proposal-10)
+
+- Package & Distribution
+  - [Lazy Custom Element Definitions (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#lazy-custom-element-definitions)
+
+```js
+customElements.defineLazy('my-element',  async () => (await import('my-element.js')).default);
+```
 
 ## Libraries
 
@@ -123,7 +193,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [Bing](https://www.bing.com/)
 - [YouTube](https://www.youtube.com/) (`<ytd-video-preview>`)
-- [Adobe Photoshop](https://web.dev/ps-on-the-web/)
+- [Photoshop for Web](https://web.dev/ps-on-the-web/)
 - [Fast](https://www.fast.design/)
 - [Ideanote](https://start.ideanote.io/)
 - [Simplr](https://simplr.company/)
@@ -139,81 +209,6 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Adobe Firefly](https://twitter.com/justinfagnani/status/1661082772419772416?s=20)
 - [Firefox](https://github.com/mozilla/gecko-dev/blob/master/toolkit/content/widgets/lit-utils.mjs)
 
-## Widgets
-
-- [Google Map Widget](https://cloud.google.com/blog/products/maps-platform/build-maps-faster-web-components)
-
-## [Specifications (W3C Web Components Community Group)](https://github.com/WICG/webcomponents)
-
-Web components are a collection of web standards that enable an HTML native component model.
-They are a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
-
-- Shadow DOM
-  - [DOM Standard › Shadow DOM](https://dom.spec.whatwg.org/#shadow-trees)
-
-- Custom Elements
-  - [HTML Standard › Custom Elements](https://html.spec.whatwg.org/multipage/scripting.html#custom-elements)
-  - [Form Associated Custom Elements (Fully Supported)](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals/form)
-
-- HTML Templates
-  - [HTML Standard › HTML Templates](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element)
-
-- CSS changes
-  - [CSS Scoping](https://drafts.csswg.org/css-scoping/)
-  - [CSS Shadow Parts](https://drafts.csswg.org/css-shadow-parts/)
-
-
-- [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
-
-
-## Specification Drafts, Reviews & Explainers
-
-- [Declarative Shadow DOM (DSD)](https://github.com/dwhatwg/html/pull/5465)
-  - [Chrome 90 (`shadowroot` — non-standard)](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
-  - [Chrome 111 (`shadowrootmode` — standardized)](https://developer.chrome.com/en/articles/declarative-shadow-dom/)
-  - [Safari Technology Preview 162](https://webkit.org/blog/13851/declarative-shadow-dom/)
-    - [Streaming DSD: Chromium Intent to Ship](https://groups.google.com/a/chromium.org/g/blink-dev/c/xzT-vN-bx0s/m/qWrGNWwQAAAJ?pli=1)
-    - [Streaming DSD: Playground](https://lit.dev/playground/#gist=d2540b636f7d9d420c2dd8ddd8436c81)
-
-> A declarative API to allow the creation of #shadowroots using only HTML and no Javascript. This API allows Web Components that use Shadow DOM to also make use of Server-Side Rendering (SSR), to get rendered content onscreen quickly without requiring Javascript for shadow root attachment and population.
-
-- [Form-associated custom elements (attachInternals)](https://github.com/whatwg/html/pull/4383)
-  - [HTML Living Standard](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example)
-  - [Chrome 77](https://www.chromestatus.com/features/4708990554472448)
-  - [FF 98](https://bugzilla.mozilla.org/show_bug.cgi?id=1745378)
-  - [Safari Technology Preview 162](https://webkit.org/blog/13851/declarative-shadow-dom/)
-  - [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
-
-
-- [Shadow DOM Delegate Focus](https://blog.whatwg.org/focusing-on-focus)
-> When the shadow root of an element has delegates focus flag set, focusing on the shadow host would automatically “delegates” focus to the first focusable element in the shadow tree instead.
-
-- [CSSOM Constructable Stylesheet Objects](https://wicg.github.io/construct-stylesheets/)
-- [CSS Custom States (Chromium)](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet)
-- [CSS Theming (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#theming)
-
-- [my-element:--my-state custom state pseudo class](https://wicg.github.io/custom-state-pseudo-class/)
-  - [Chrome 90](https://www.chromestatus.com/feature/6537562418053120)
-  - [This feature is not (yet) a standard](https://css-tricks.com/custom-state-pseudo-classes-in-chrome/#this-feature-is-not-yet-a-standard)
-
-- [Children Changed Callback (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#children-changed-callback)
-- [Custom Attributes (Identified)](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
-- [Composed Selection (Consensus/No Spec)](https://w3c.github.io/webcomponents-cg/2022.html#initial-api-summary-quick-api-proposal-0)
-- [Declarative Custom Element (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#declarative-custom-elements)
-
-- Rendering & Performance
-  - [Declarative Shadow DOM (Mostly Supported)](https://developer.chrome.com/articles/declarative-shadow-dom/)
-
-- Template Instantiation
-  - [DOM Parts (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#initial-api-summary-quick-api-proposal-10)
-
-- Package & Distribution
-  - [Lazy Custom Element Definitions (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#lazy-custom-element-definitions)
-
-```js
-customElements.defineLazy('my-element',  async () => (await import('my-element.js')).default);
-```
-
 ## Frameworks & Routers
 
 - [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/)
@@ -223,9 +218,7 @@ customElements.defineLazy('my-element',  async () => (await import('my-element.j
 > A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 
 - [Enhance](https://enhance.dev/)
-
 - [Appolo Elements](https://apolloelements.dev/)
-
 - [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
 
 ## Stats
@@ -272,6 +265,10 @@ Major technology organizations investing in the future of web components:
 ## Accessibility
 
 - [How Shadow DOM and accessibility are in conflict](https://alice.pages.igalia.com/blog/how-shadow-dom-and-accessibility-are-in-conflict/)
+
+## Widgets
+
+- [Google Map Widget](https://cloud.google.com/blog/products/maps-platform/build-maps-faster-web-components)
 
 ## Resources
 
