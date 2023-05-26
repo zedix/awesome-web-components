@@ -28,11 +28,27 @@ class MyElement extends HTMLElement {
 
 ## Contents
 
+- [Latest Articles](#articles)
 - [Libraries](#libraries)
 - [Component Libraries](#component-libraries)
 - [Sites build entirely with Web Components](sites-build-entirely-with-web-components)
 - [Specification Drafts, Reviews & Explainers](specification-drafts-reviews--explainers)
-- [Articles](#articles)
+
+
+## Latest Articles
+
+- [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
+- [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) — by Rob Eisenberg from the FAST team
+- [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
+- [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
+- [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
+- [2021-05-26 — Links on Web Components](https://css-tricks.com/links-on-web-components/)
+- [2021-05-15 — Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
+- [2020-03-27 — The bright future of Web Components](https://maxart2501.github.io/web-components-talk/codemotion-rm20/#63)
+- [2019-11-07 — The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
+- [2019-04-08 — A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
+- [2018-09-06 — GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
+- [2017-03-14 — Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
 
 ## Libraries
 
@@ -103,10 +119,11 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## Sites build entirely with Web Components
 
 - [MSN](https://www.msn.com/fr-fr)
-> A couple of years back, Microsoft re-built the MSN experience with Web Components based on FAST. This improved performance by 30%–50% over the previous React version.
+> A couple of years back, Microsoft re-built the MSN experience with the [Fluent UI Web Components based on FAST](https://learn.microsoft.com/en-us/fluent-ui/web-components/). This improved performance by 30%–50% over the previous React version Approximately 1,500 teams and/or projects within Microsoft have adopted FAST Web Components in the last three years (from 2022).
 
-- [YouTube](https://www.youtube.com/)
-- [Photoshop](https://web.dev/ps-on-the-web/)
+- [Bing](https://www.bing.com/)
+- [YouTube](https://www.youtube.com/) (`<ytd-video-preview>`)
+- [Adobe Photoshop](https://web.dev/ps-on-the-web/)
 - [Fast](https://www.fast.design/)
 - [Ideanote](https://start.ideanote.io/)
 - [Simplr](https://simplr.company/)
@@ -119,8 +136,14 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [TikTok](https://twitter.com/justinfagnani/status/1633831934643273730) (`<cookie-settings-modal>`)
 - [Figma](https://twitter.com/ChrisDHolt/status/1584982495887781890?s=20)
 - [SpaceX](https://www.reddit.com/r/spacex/comments/gxb7j1/comment/ft6bydt/)
+- [Adobe Firefly](https://twitter.com/justinfagnani/status/1661082772419772416?s=20)
+- [Firefox](https://github.com/mozilla/gecko-dev/blob/master/toolkit/content/widgets/lit-utils.mjs)
 
-## [Specifications](https://github.com/WICG/webcomponents)
+## Widgets
+
+- [Google Map Widget](https://cloud.google.com/blog/products/maps-platform/build-maps-faster-web-components)
+
+## [Specifications (W3C Web Components Community Group)](https://github.com/WICG/webcomponents)
 
 Web components are a collection of web standards that enable an HTML native component model.
 They are a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
@@ -130,6 +153,7 @@ They are a meta-specification made possible by the above [specifications](https:
 
 - Custom Elements
   - [HTML Standard › Custom Elements](https://html.spec.whatwg.org/multipage/scripting.html#custom-elements)
+  - [Form Associated Custom Elements (Fully Supported)](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals/form)
 
 - HTML Templates
   - [HTML Standard › HTML Templates](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element)
@@ -137,6 +161,7 @@ They are a meta-specification made possible by the above [specifications](https:
 - CSS changes
   - [CSS Scoping](https://drafts.csswg.org/css-scoping/)
   - [CSS Shadow Parts](https://drafts.csswg.org/css-shadow-parts/)
+
 
 - [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
 
@@ -164,12 +189,30 @@ They are a meta-specification made possible by the above [specifications](https:
 > When the shadow root of an element has delegates focus flag set, focusing on the shadow host would automatically “delegates” focus to the first focusable element in the shadow tree instead.
 
 - [CSSOM Constructable Stylesheet Objects](https://wicg.github.io/construct-stylesheets/)
+- [CSS Custom States (Chromium)](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet)
+- [CSS Theming (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#theming)
 
 - [my-element:--my-state custom state pseudo class](https://wicg.github.io/custom-state-pseudo-class/)
   - [Chrome 90](https://www.chromestatus.com/feature/6537562418053120)
   - [This feature is not (yet) a standard](https://css-tricks.com/custom-state-pseudo-classes-in-chrome/#this-feature-is-not-yet-a-standard)
 
+- [Children Changed Callback (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#children-changed-callback)
+- [Custom Attributes (Identified)](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
+- [Composed Selection (Consensus/No Spec)](https://w3c.github.io/webcomponents-cg/2022.html#initial-api-summary-quick-api-proposal-0)
+- [Declarative Custom Element (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#declarative-custom-elements)
 
+- Rendering & Performance
+  - [Declarative Shadow DOM (Mostly Supported)](https://developer.chrome.com/articles/declarative-shadow-dom/)
+
+- Template Instantiation
+  - [DOM Parts (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#initial-api-summary-quick-api-proposal-10)
+
+- Package & Distribution
+  - [Lazy Custom Element Definitions (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#lazy-custom-element-definitions)
+
+```js
+customElements.defineLazy('my-element',  async () => (await import('my-element.js')).default);
+```
 
 ## Frameworks & Routers
 
@@ -239,17 +282,3 @@ Major technology organizations investing in the future of web components:
 - [Awesome Lit](https://github.com/web-padawan/awesome-lit)
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
 - [Starter Templates](https://webcomponents.today/starter-templates/)
-
-## Articles
-
-- [2017-03-14 — Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
-- [2018-09-06 — GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
-- [2019-04-08 — A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
-- [2019-11-07 — The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
-- [2020-03-27 — The bright future of Web Components](https://maxart2501.github.io/web-components-talk/codemotion-rm20/#63)
-- [2021-05-15 — Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
-- [2021-05-26 — Links on Web Components](https://css-tricks.com/links-on-web-components/)
-- [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
-- [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
-- [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
-- [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) — by Rob Eisenberg from the FAST team
