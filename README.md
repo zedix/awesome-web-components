@@ -36,13 +36,8 @@ They are a meta-specification made possible by the above [specifications](https:
   - [CSS Scoping](https://drafts.csswg.org/css-scoping/)
   - [CSS Shadow Parts](https://drafts.csswg.org/css-shadow-parts/)
 
-
 - [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
 
-
-- Web Components are the **native component model** on the web platform.
-- Web Components **exposes capabilities** previously reserved for native code
-- Web Components are **low level** DOM APIs
 
 ```js
 import sheet from './styles.css';
@@ -62,6 +57,11 @@ class MyElement extends HTMLElement {
   }
 }
 ```
+
+- Web Components are the **native component model** on the web platform.
+- Web Components **exposes capabilities** previously reserved for native code
+- Web Components are **low level** DOM APIs
+
 
 ## Drafts, Reviews & Explainers
 
