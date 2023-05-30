@@ -2,38 +2,6 @@
 
 > This is a curated list of Web Components design systems, libraries and resources.
 
-- Web Components are the **native component model** on the web platform.
-- Web Components **exposes capabilities** previously reserved for native code
-- Web Components are **low level** DOM APIs
-
-```js
-import sheet from './styles.css';
-
-class MyElement extends HTMLElement {
-  constructor() {
-    super();
-    this.attachShadow({ mode: 'open' });
-    this.shadowRoot.adoptedStyleSheets = [sheet];
-  }
-  connectedCallback() {}
-  disconnectedCallback() {}
-  attributeChangedCallback() {}
-  adoptedCallback() {}
-  static get observedAttributes() {
-    return ['foo'];
-  }
-}
-```
-
-## Contents
-
-- [Latest Articles](#articles)
-- [Libraries](#libraries)
-- [Component Libraries](#component-libraries)
-- [Sites build entirely with Web Components](sites-build-entirely-with-web-components)
-- [Specification Drafts, Reviews & Explainers](specification-drafts-reviews--explainers)
-
-
 ## Latest Articles
 
 - [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
@@ -71,6 +39,29 @@ They are a meta-specification made possible by the above [specifications](https:
 
 - [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
 
+
+- Web Components are the **native component model** on the web platform.
+- Web Components **exposes capabilities** previously reserved for native code
+- Web Components are **low level** DOM APIs
+
+```js
+import sheet from './styles.css';
+
+class MyElement extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' });
+    this.shadowRoot.adoptedStyleSheets = [sheet];
+  }
+  connectedCallback() {}
+  disconnectedCallback() {}
+  attributeChangedCallback() {}
+  adoptedCallback() {}
+  static get observedAttributes() {
+    return ['foo'];
+  }
+}
+```
 
 ## Drafts, Reviews & Explainers
 
