@@ -6,9 +6,9 @@
 
 - [2023-07-20 — Hacker News Lit: Simple, fast web components ](https://news.ycombinator.com/item?id=36806747)
 - [2023-07-19 — Dynamic Slots](https://www.abeautifulsite.net/posts/dynamic-slots/)
-- [2023-06-28 — If Web Components are so great, why am I not using them?](https://daverupert.com/2023/07/why-not-webcomponents/) ⭐
+- [2023-06-28 — If Web Components are so great, why am I not using them?](https://daverupert.com/2023/07/why-not-webcomponents/)
 - [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
-- [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) — by Rob Eisenberg from the FAST team
+- [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) ⭐ — by Rob Eisenberg from the FAST team
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
 - [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
 - [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
