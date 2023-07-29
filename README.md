@@ -4,6 +4,9 @@
 
 ## Latest Articles
 
+- [2023-07-20 — Hacker News Lit: Simple, fast web components ](https://news.ycombinator.com/item?id=36806747)
+- [2023-07-19 — Dynamic Slots](https://www.abeautifulsite.net/posts/dynamic-slots/)
+- [2023-06-28 — If Web Components are so great, why am I not using them?](https://daverupert.com/2023/07/why-not-webcomponents/) ⭐
 - [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
 - [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) — by Rob Eisenberg from the FAST team
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
@@ -65,9 +68,12 @@ class MyElement extends HTMLElement {
 
 ## Drafts, Reviews & Explainers
 
-- [Declarative Shadow DOM (DSD)](https://github.com/dwhatwg/html/pull/5465)
+- [Declarative Shadow DOM (DSD)](https://github.com/whatwg/html/pull/5465)
+  - [Server-Side Rendering (SSR) API](https://github.com/webcomponents-cg/community-protocols/issues/7)
+  - [Can I use `shadowrootmode`?](https://caniuse.com/mdn-html_elements_template_shadowrootmode)
   - [Chrome 90 (`shadowroot` — non-standard)](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
   - [Chrome 111 (`shadowrootmode` — standardized)](https://developer.chrome.com/en/articles/declarative-shadow-dom/)
+  - [Bugzilla #1712140](https://bugzilla.mozilla.org/show_bug.cgi?id=1712140)
   - [Safari Technology Preview 162](https://webkit.org/blog/13851/declarative-shadow-dom/)
     - [Streaming DSD: Chromium Intent to Ship](https://groups.google.com/a/chromium.org/g/blink-dev/c/xzT-vN-bx0s/m/qWrGNWwQAAAJ?pli=1)
     - [Streaming DSD: Playground](https://lit.dev/playground/#gist=d2540b636f7d9d420c2dd8ddd8436c81)
@@ -193,10 +199,12 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## Sites using Lit elements
 
 - [ChromeDevTools](https://twitter.com/steren/status/1633359619874754561?s=20) (`<devtools-button>`)
-- [Reddit](https://twitter.com/43081j/status/1634860644372561921) (`<shreddit-mod-comment>`)
+- [VSCode](https://github.com/microsoft/vscode-webview-ui-toolkit)
+- [Reddit](https://twitter.com/43081j/status/1634860644372561921) ([shreddit-mod-comment](https://sh.reddit.com/))
 - [TikTok](https://twitter.com/justinfagnani/status/1633831934643273730) (`<cookie-settings-modal>`)
 - [Figma](https://twitter.com/ChrisDHolt/status/1584982495887781890?s=20)
 - [SpaceX](https://www.reddit.com/r/spacex/comments/gxb7j1/comment/ft6bydt/)
+- [Shopify](https://shopify.engineering/shopifys-platform-is-the-web-platform) (`ui-nav-menu`)
 - [Adobe Firefly](https://twitter.com/justinfagnani/status/1661082772419772416?s=20)
 - [Firefox](https://github.com/mozilla/gecko-dev/blob/master/toolkit/content/widgets/lit-utils.mjs)
 
@@ -211,6 +219,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Enhance](https://enhance.dev/)
 - [Appolo Elements](https://apolloelements.dev/)
 - [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
+- [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
 
 ## Stats
 
