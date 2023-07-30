@@ -43,27 +43,56 @@ They are a meta-specification made possible by the above [specifications](https:
 
 
 ```js
-import sheet from './styles.css';
+import sheet from './base.css' assert { type: 'css' };
 
 class MyElement extends HTMLElement {
+  static get observedAttributes() {
+    return ['my-attr']; // tell the platform about reactive attributes
+  }
+
   constructor() {
     super();
+    // custom construction logic such as creating your shadow DOM
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.adoptedStyleSheets = [sheet];
   }
-  connectedCallback() {}
-  disconnectedCallback() {}
-  attributeChangedCallback() {}
-  adoptedCallback() {}
-  static get observedAttributes() {
-    return ['foo'];
+
+  connectedCallback() {
+    // this lifecycle hook is called by the platform when your
+    // element is connected to the DOM
+  }
+
+  disconnectedCallback() {
+    // this lifecycle hook is called by the platform when your
+    // element is disconnected from the DOM
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    // this lifecycle hook is called whenever one of your
+    // observed attributes changes in value
   }
 }
+
+customElements.define('my-element', MyElement);
 ```
 
 - Web Components are the **native component model** on the web platform.
 - Web Components **exposes capabilities** previously reserved for native code
 - Web Components are **low level** DOM APIs
+
+## Performance
+
+From [About Web Components](https://eisenbergeffect.medium.com/about-web-components-7b2a3ed67a78) by Rob Eisenberg
+
+Web Components have clear performance benefits. There are several reasons for this:
+
+- The core capabilities of Web Components are implemented in C++/Rust as part of each browser’s native HTML parser and runtime. JavaScript frameworks simply can’t match the speed and memory efficiency of C++.
+
+- Because the component model is implemented by the browser, less JavaScript needs to be downloaded, parsed, and executed before a component is able to render.
+
+- With JavaScript frameworks, the browser doesn’t “see” the components and thus can’t optimize for them. It just looks like one gigantic DOM tree to the runtime. With Web Components, the browser knows about every component and its boundaries, and can perform various internal optimizations to improve performance. This is particularly important in applications with large amounts of CSS where the absence of Web Component Shadow DOM makes it impossible to fix certain rendering performance problems. Non-web component libraries literally block the browser from optimizations it could otherwise perform.
+
+- The Web Component model favors modern reactivity patterns and surgical DOM updates that massively outperform the Virtual DOM approaches of libraries like React. You can see this in the way that observedAttributes and the attributeChangedCallback work.
 
 
 ## Drafts, Reviews & Explainers
@@ -200,13 +229,14 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [ChromeDevTools](https://twitter.com/steren/status/1633359619874754561?s=20) (`<devtools-button>`)
 - [VSCode](https://github.com/microsoft/vscode-webview-ui-toolkit)
-- [Reddit](https://twitter.com/43081j/status/1634860644372561921) ([shreddit-mod-comment](https://sh.reddit.com/))
+- [Reddit](https://twitter.com/addyosmani/status/1677776509837402112?s=20) ([shreddit-mod-comment](https://sh.reddit.com/)) Lit
 - [TikTok](https://twitter.com/justinfagnani/status/1633831934643273730) (`<cookie-settings-modal>`)
 - [Figma](https://twitter.com/ChrisDHolt/status/1584982495887781890?s=20)
 - [SpaceX](https://www.reddit.com/r/spacex/comments/gxb7j1/comment/ft6bydt/)
-- [Shopify](https://shopify.engineering/shopifys-platform-is-the-web-platform) (`ui-nav-menu`)
+- [Shopify](https://shopify.engineering/shopifys-platform-is-the-web-platform) (`<ui-nav-menu>`)
 - [Adobe Firefly](https://twitter.com/justinfagnani/status/1661082772419772416?s=20)
 - [Firefox](https://github.com/mozilla/gecko-dev/blob/master/toolkit/content/widgets/lit-utils.mjs)
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/web-components/overview?hl=fr) (`<gmp-map>`)
 
 ## Frameworks & Routers
 
