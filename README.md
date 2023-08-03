@@ -25,16 +25,20 @@
 ```js
 import sheet from './base.css' assert { type: 'css' };
 
-class MyElement extends HTMLElement {
-  static get observedAttributes() {
-    return ['my-attr']; // tell the platform about reactive attributes
-  }
+class MyButton extends HTMLElement
+{
+  static observedAttributes = ['my-attr'];// tell the platform about reactive attributes
+  #internals;
+  #shadowRoot;
 
   constructor() {
     super();
     // custom construction logic such as creating your shadow DOM
-    this.attachShadow({ mode: 'open' });
-    this.shadowRoot.adoptedStyleSheets = [sheet];
+    this.attachShadow({ mode: 'open'});
+    this.#shadowRoot.adoptedStyleSheets = [sheet];
+    // specify the default ARIA role
+    this.#internals = this.attachInternals();
+    this.#internals.ariaRole = 'button';
   }
 
   connectedCallback() {
@@ -53,7 +57,7 @@ class MyElement extends HTMLElement {
   }
 }
 
-customElements.define('my-element', MyElement);
+customElements.define('my-element', MyButton);
 ```
 
 - Web Components are the **native component model** on the web platform.
@@ -76,7 +80,7 @@ Web Components have clear performance benefits. There are several reasons for th
 
 ## Specifications
 
-Web components are a collection of [web standards](https://github.com/WICG/webcomponents) (W3C Web Components Community Group) that enable an HTML native component model.
+Web components are a [collection](https://w3c.github.io/webcomponents-cg/2022.html) of [web standards](https://github.com/WICG/webcomponents) (W3C Web Components Community Group) that enable an HTML native component model.
 They are a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
 
 - Shadow DOM
@@ -246,16 +250,18 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Frameworks & Routers
 
-- [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/)
-> The goal of Crossbow is to be the _Next.js_ for web-components.
+- [Enhance](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie)
+> Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
 
 - [Rocket](https://rocket.modern-web.dev/)
 > A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 
-- [Enhance](https://enhance.dev/)
+- [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
+
 - [Appolo Elements](https://apolloelements.dev/)
 - [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
-- [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
+- [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/)
+> The goal of Crossbow is to be the _Next.js_ for web-components.
 
 ## Stats
 
@@ -318,3 +324,4 @@ Major technology organizations investing in the future of web components:
 - [Awesome Lit](https://github.com/web-padawan/awesome-lit)
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
 - [Starter Templates](https://webcomponents.today/starter-templates/)
+- [Stubbornella on WC/Wasm](https://news.ycombinator.com/item?id=34632657)
