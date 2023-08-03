@@ -193,7 +193,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
   ⇢ [StoryBook](https://web-components.carbondesignsystem.com/)
 - [Kor UI Design System](https://kor-ui.com/)
 - [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
-- [Lion by ING](https://github.com/ing-bank/lion)
+- [Lion by ING](https://github.com/ing-bank/lion) + [Lion Components](https://lion-web.netlify.app/)
 - [Lithium UI](https://github.com/coryrylan/lithium)
 - [Nordhealth Design System](https://nordhealth.design/)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
@@ -211,6 +211,12 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Duet Design System by LocalTapiola](https://www.duetds.com/)
 - [Scale Design System By Telekom](https://github.com/telekom/scale)
 - [Elix](https://component.kitchen/elix)
+
+## Design Systems build entirely with Web Components
+
+- [ING Lion](https://lion-web.netlify.app/)
+- [Adobe Spectrum](https://spectrum.adobe.com/)
+- [Red Hat Design System](https://ux.redhat.com/)
 
 ## Sites build entirely with Web Components
 
@@ -296,8 +302,11 @@ Major technology organizations investing in the future of web components:
 
 - [How Shadow DOM and accessibility are in conflict](https://alice.pages.igalia.com/blog/how-shadow-dom-and-accessibility-are-in-conflict/)
 
-## Widgets
+## Widgets / Standalone elements
 
+- [Rhino Editor](https://github.com/konnorrogers/rhino-editor)
+- [Swiper Element](https://swiperjs.com/element)
+- [Mux Uploader](https://docs.mux.com/guides/video/mux-uploader)
 - [Google Map Widget](https://cloud.google.com/blog/products/maps-platform/build-maps-faster-web-components)
 
 ## Resources
