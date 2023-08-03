@@ -1,6 +1,6 @@
 # Awesome Web Components [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> This is a curated list of Web Components design systems, libraries and resources.
+> This is a curated list of Web Components articles, design systems, libraries and resources.
 
 ## Latest Articles
 
@@ -20,27 +20,7 @@
 - [2018-09-06 — GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
 - [2017-03-14 — Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
 
-## Specifications (W3C Web Components Community Group)
-
-Web components are a collection of [web standards](https://github.com/WICG/webcomponents) that enable an HTML native component model.
-They are a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
-
-- Shadow DOM
-  - [DOM Standard › Shadow DOM](https://dom.spec.whatwg.org/#shadow-trees)
-
-- Custom Elements
-  - [HTML Standard › Custom Elements](https://html.spec.whatwg.org/multipage/scripting.html#custom-elements)
-  - [Form Associated Custom Elements (Fully Supported)](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals/form)
-
-- HTML Templates
-  - [HTML Standard › HTML Templates](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element)
-
-- CSS changes
-  - [CSS Scoping](https://drafts.csswg.org/css-scoping/)
-  - [CSS Shadow Parts](https://drafts.csswg.org/css-shadow-parts/)
-
-- [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
-
+## Example
 
 ```js
 import sheet from './base.css' assert { type: 'css' };
@@ -93,6 +73,27 @@ Web Components have clear performance benefits. There are several reasons for th
 - With JavaScript frameworks, the browser doesn’t “see” the components and thus can’t optimize for them. It just looks like one gigantic DOM tree to the runtime. With Web Components, the browser knows about every component and its boundaries, and can perform various internal optimizations to improve performance. This is particularly important in applications with large amounts of CSS where the absence of Web Component Shadow DOM makes it impossible to fix certain rendering performance problems. Non-web component libraries literally block the browser from optimizations it could otherwise perform.
 
 - The Web Component model favors modern reactivity patterns and surgical DOM updates that massively outperform the Virtual DOM approaches of libraries like React. You can see this in the way that observedAttributes and the attributeChangedCallback work.
+
+## Specifications
+
+Web components are a collection of [web standards](https://github.com/WICG/webcomponents) (W3C Web Components Community Group) that enable an HTML native component model.
+They are a meta-specification made possible by the above [specifications](https://techxplore.com/news/2019-06-w3c-whatwg-agreement-version-html.html):
+
+- Shadow DOM
+  - [DOM Standard › Shadow DOM](https://dom.spec.whatwg.org/#shadow-trees)
+
+- Custom Elements
+  - [HTML Standard › Custom Elements](https://html.spec.whatwg.org/multipage/scripting.html#custom-elements)
+  - [Form Associated Custom Elements (Fully Supported)](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals/form)
+
+- HTML Templates
+  - [HTML Standard › HTML Templates](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element)
+
+- CSS changes
+  - [CSS Scoping](https://drafts.csswg.org/css-scoping/)
+  - [CSS Shadow Parts](https://drafts.csswg.org/css-shadow-parts/)
+
+- [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
 
 
 ## Drafts, Reviews & Explainers
@@ -194,7 +195,6 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Kor UI Design System](https://kor-ui.com/)
 - [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
 - [Lion by ING](https://github.com/ing-bank/lion) + [Lion Components](https://lion-web.netlify.app/)
-- [Lithium UI](https://github.com/coryrylan/lithium)
 - [Nordhealth Design System](https://nordhealth.design/)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
 - [Vaadin](https://github.com/vaadin/web-components) ❤︎
