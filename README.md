@@ -4,7 +4,9 @@
 
 ## Latest Articles
 
-- [2023-07-20 — Hacker News Lit: Simple, fast web components ](https://news.ycombinator.com/item?id=36806747)
+- [2023-08-18 — Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)
+- [2023-08-07 — SEO and Web Components - 2023 Edition](https://dev.to/stuffbreaker/seo-and-web-components-2023-edition-3l6i)
+- [2023-07-20 — Hacker News Lit: Simple, fast web components](https://news.ycombinator.com/item?id=36806747)
 - [2023-07-19 — Dynamic Slots](https://www.abeautifulsite.net/posts/dynamic-slots/)
 - [2023-06-28 — If Web Components are so great, why am I not using them?](https://daverupert.com/2023/07/why-not-webcomponents/)
 - [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
