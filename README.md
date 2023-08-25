@@ -2,9 +2,11 @@
 
 > This is a curated list of Web Components articles, design systems, libraries and resources.
 
+<img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_512x512.png" width="240" style="margin: 0 24px;" />
+
 ## Latest Talks
 
-- [2023-09-09 — Shining Light on the Shadow DOM | Cassondra Roberts | CSS Day 2023](https://www.youtube.com/watch?v=67bSCEEdaH8)
+- [2023-06-09 — Shining Light on the Shadow DOM | Cassondra Roberts | CSS Day 2023](https://www.youtube.com/watch?v=67bSCEEdaH8)
 
 ## Latest Articles
 
@@ -234,7 +236,8 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [MSN](https://www.msn.com/fr-fr)
 > A couple of years back, Microsoft re-built the MSN experience with the [Fluent UI Web Components based on FAST](https://learn.microsoft.com/en-us/fluent-ui/web-components/). This improved performance by 30%–50% over the previous React version Approximately 1,500 teams and/or projects within Microsoft have adopted FAST Web Components in the last three years (from 2022).
-
+- [Reddit](https://twitter.com/addyosmani/status/1677776509837402112?s=20) ([shreddit-mod-comment](https://sh.reddit.com/)) Lit
+- [RedHat](https://www.redhat.com/)(`<pfe-navigation>`)
 - [Bing](https://www.bing.com/)
 - [YouTube](https://www.youtube.com/) (`<ytd-video-preview>`)
 - [Photoshop for Web](https://web.dev/ps-on-the-web/)
@@ -247,7 +250,6 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [ChromeDevTools](https://twitter.com/steren/status/1633359619874754561?s=20) (`<devtools-button>`)
 - [VSCode](https://github.com/microsoft/vscode-webview-ui-toolkit)
-- [Reddit](https://twitter.com/addyosmani/status/1677776509837402112?s=20) ([shreddit-mod-comment](https://sh.reddit.com/)) Lit
 - [TikTok](https://twitter.com/justinfagnani/status/1633831934643273730) (`<cookie-settings-modal>`)
 - [Figma](https://twitter.com/ChrisDHolt/status/1584982495887781890?s=20)
 - [SpaceX](https://www.reddit.com/r/spacex/comments/gxb7j1/comment/ft6bydt/)
