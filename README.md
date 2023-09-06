@@ -6,10 +6,17 @@
 
 ## Latest Talks
 
+- [2023-07-06 — The Good, The Bad, and The Web Components - Zach Leatherman | JSHeroes 2023](https://www.youtube.com/watch?v=R4Ri4ft7bXY)
+- [2023-06-20 — State of Web Components June 2023](https://youtu.be/lC9sI-S7O8g?t=2789) - "Shoelace and DS are a very easy win in most cases"
 - [2023-06-09 — Shining Light on the Shadow DOM | Cassondra Roberts | CSS Day 2023](https://www.youtube.com/watch?v=67bSCEEdaH8)
+
+## Latests Podcasts
+
+- [2023-07-07 — This is going to be Lit](https://changelog.com/jsparty/284)
 
 ## Latest Articles
 
+- [2023-08-23 — Pros and cons of using Shadow DOM and style encapsulation](https://www.matuzo.at/blog/2023/pros-and-cons-of-shadow-dom/)
 - [2023-08-23 — Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)
 - [2023-08-18 — Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)
 - [2023-08-12 — Shadow Themes](https://dutchcelt.nl/posts/shadow-themes/)
@@ -114,6 +121,7 @@ They are a meta-specification made possible by the above [specifications](https:
 
 - [Declarative Shadow DOM (DSD)](https://github.com/whatwg/html/pull/5465)
   - [Server-Side Rendering (SSR) API](https://github.com/webcomponents-cg/community-protocols/issues/7)
+  - [Capabilities needed and open questions #1009](https://github.com/WICG/webcomponents/issues/1009)
   - [Can I use `shadowrootmode`?](https://caniuse.com/mdn-html_elements_template_shadowrootmode)
   - [Chrome 90 (`shadowroot` — non-standard)](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
   - [Chrome 111 (`shadowrootmode` — standardized)](https://developer.chrome.com/en/articles/declarative-shadow-dom/)
@@ -161,7 +169,7 @@ They are a meta-specification made possible by the above [specifications](https:
 customElements.defineLazy('my-element',  async () => (await import('my-element.js')).default);
 ```
 
-## Libraries
+## Libraries for building web components
 
 Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/board/) that simplify <code>Custom Elements</code> definition and content:
 
@@ -214,7 +222,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Vaadin](https://github.com/vaadin/web-components) ❤︎
   ⇢ [Documentation](https://vaadin.com/docs/latest/ds/overview)
 - [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
-- [ClarityCore by VMware](https://clarity.design/storybook/core/)
+- [ClarityCore by VMware](https://clarity.design/)
 - [Weightless](https://weightless.dev/)
 - [Zedix UI](https://github.com/zedix/zedix-ui)
 
@@ -226,7 +234,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Scale Design System By Telekom](https://github.com/telekom/scale)
 - [Elix](https://component.kitchen/elix)
 
-## Design Systems build entirely with Web Components
+## Design Systems build with Web Components
 
 - [ING Lion](https://lion-web.netlify.app/)
 - [Adobe Spectrum](https://spectrum.adobe.com/)
@@ -267,6 +275,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 > A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 
 - [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
+  - [Introduction to WebC](https://11ty.rocks/posts/introduction-webc/)
 
 - [Appolo Elements](https://apolloelements.dev/)
 - [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
@@ -324,6 +333,11 @@ Major technology organizations investing in the future of web components:
 - [Swiper Element](https://swiperjs.com/element)
 - [Mux Uploader](https://docs.mux.com/guides/video/mux-uploader)
 - [Google Map Widget](https://cloud.google.com/blog/products/maps-platform/build-maps-faster-web-components)
+- [Stripe Pricing Table](https://stripe.com/docs/payments/checkout/pricing-table)
+
+## History
+
+-  2012, W3C launched the [first specification](https://www.w3.org/TR/2012/WD-components-intro-20120522/?ref=web-highlights.com#decorators-vs-custom-elements) of Web Components
 
 ## Resources
 
