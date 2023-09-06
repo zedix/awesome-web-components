@@ -4,16 +4,6 @@
 
 <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_512x512.png" width="240" style="margin: 0 24px;" />
 
-## Latest Talks
-
-- [2023-07-06 — The Good, The Bad, and The Web Components - Zach Leatherman | JSHeroes 2023](https://www.youtube.com/watch?v=R4Ri4ft7bXY)
-- [2023-06-20 — State of Web Components June 2023](https://youtu.be/lC9sI-S7O8g?t=2789) - "Shoelace and DS are a very easy win in most cases"
-- [2023-06-09 — Shining Light on the Shadow DOM | Cassondra Roberts | CSS Day 2023](https://www.youtube.com/watch?v=67bSCEEdaH8)
-
-## Latests Podcasts
-
-- [2023-07-07 — This is going to be Lit](https://changelog.com/jsparty/284)
-
 ## Latest Articles
 
 - [2023-08-23 — Pros and cons of using Shadow DOM and style encapsulation](https://www.matuzo.at/blog/2023/pros-and-cons-of-shadow-dom/)
@@ -36,6 +26,17 @@
 - [2019-04-08 — A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
 - [2018-09-06 — GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
 - [2017-03-14 — Brief, incomplete, and mostly incorrect history of Web Components](https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/#brief-incomplete-and-mostly-incorrect-history-of-web-components)
+
+## Latest Talks
+
+- [2023-07-06 — The Good, The Bad, and The Web Components - Zach Leatherman | JSHeroes 2023](https://www.youtube.com/watch?v=R4Ri4ft7bXY)
+- [2023-06-20 — State of Web Components June 2023](https://youtu.be/lC9sI-S7O8g?t=2789) - "Shoelace and DS are a very easy win in most cases"
+- [2023-06-09 — Shining Light on the Shadow DOM | Cassondra Roberts | CSS Day 2023](https://www.youtube.com/watch?v=67bSCEEdaH8)
+
+## Latest Podcasts
+
+- [2023-07-07 — This is going to be Lit](https://changelog.com/jsparty/284)
+
 
 ## Example
 
