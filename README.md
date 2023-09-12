@@ -176,63 +176,72 @@ customElements.defineLazy('my-element',  async () => (await import('my-element.j
 Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/board/) that simplify <code>Custom Elements</code> definition and content:
 
 - [Lit](https://lit.dev/)
-  - [Community protocols](https://github.com/webcomponents/community-protocols)
 - [Fast](https://github.com/microsoft/fast)
 - [SkateJS](https://github.com/skatejs/skatejs)
 - [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
 - [Atomico](https://github.com/atomicojs/atomico)
 - [Hybrids](https://hybrids.js.org/)
 - [µce+µhtml](https://github.com/WebReflection/uce)
-  ⇢ [µce vs lit-element](https://gist.github.com/WebReflection/ae3451c17c5e882bbc7f0714c14eefcd)
-  ⇢ [µce does @vue/lit things](https://codepen.io/WebReflection/pen/LYNJwoV?editors=0010)
+  - [µce vs lit-element](https://gist.github.com/WebReflection/ae3451c17c5e882bbc7f0714c14eefcd)
+  - [µce does @vue/lit things](https://codepen.io/WebReflection/pen/LYNJwoV?editors=0010)
 
 - [µce-template+µce-loader]
 > uce-template is a 100% Custom Elements based library, which goal is to help defining portable components once, but usable everywhere, directly in the HTML. Combined with µce-loader, it is possible to stream definitions, as these are found in the page, making uce-template an ideal static/server page companion for graceful, client-side, enhancement.
 
-## Component Libraries
+## Web Components UI Libraries
 
 - [GitHub Elements](https://github.com/github/github-elements)
 - [Material Design Web Components](https://github.com/material-components/material-components-web-components)
 - [Chameleon UI](https://github.com/MaritzSTL/chameleon)
-  ⇢ [StoryBook](https://chameleon-design-system.netlify.app/?path=/story/*)
+  - [StoryBook](https://chameleon-design-system.netlify.app/?path=/story/*)
 - [Elix](https://component.kitchen/elix)
 - [Helix UI](https://helixdesignsystem.github.io/helix-ui/)
 - [Kor UI](https://kor-ui.com/)
 - [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
 - [Microsoft Fast](https://fast.design/)
 - [Microsoft Graph](https://github.com/microsoftgraph/microsoft-graph-toolkit)
-  ⇢ [StoryBook](https://mgt.dev/)
+  - [StoryBook](https://mgt.dev/)
 - [PatternFly Design System](https://github.com/patternfly/patternfly-elements)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
 - [SAP UI5](https://github.com/SAP/ui5-webcomponents)
 - [Vaadin](https://github.com/vaadin/web-components) ❤︎
-  ⇢ [Documentation](https://vaadin.com/docs/latest/ds/overview)
+  - [Documentation](https://vaadin.com/docs/latest/ds/overview)
 
 ## Design Systems build with Web Components
 
-- [Adobe Spectrum Design System](https://spectrum.adobe.com/)
-- [Astro Space UX Design System](https://www.astrouxds.com/)
-- [Auro Design System by Alaska Airlines](https://auro.alaskaair.com/)
-- [AXA Pattern Library](https://github.com/axa-ch/patterns-library)
-  ⇢ [StoryBook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
-- [Clever Cloud UI](https://github.com/CleverCloud/clever-components)
-  ⇢ [StoryBook](https://www.clever-cloud.com/doc/clever-components/)
-  ⇢ [Repository](https://github.com/CleverCloud/clever-components)
-- [Duet Design System by LocalTapiola](https://www.duetds.com/) Stencil
-- [Freshworks Crayons Design System](https://crayons.freshworks.com/introduction/) Stencil
+- [Adobe Spectrum Design System](https://spectrum.adobe.com/)〔Lit〕
+  - [Repository](https://github.com/adobe/spectrum-web-components)
+- [Astro Space UX Design System](https://www.astrouxds.com/)〔Lit〕
+- [Auro Design System by Alaska Airlines](https://auro.alaskaair.com/)〔Lit〕
+- [AXA Pattern Library](https://github.com/axa-ch/patterns-library)〔Lit〕
+  - [StoryBook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
+- [Clever Cloud UI](https://github.com/CleverCloud/clever-components)〔Lit〕
+  - [StoryBook](https://www.clever-cloud.com/doc/clever-components/)〔Lit〕
+  - [Repository](https://github.com/CleverCloud/clever-components)
+- [Duet Design System by LocalTapiola](https://www.duetds.com/)〔Stencil〕
+- [Freshworks Crayons Design System](https://crayons.freshworks.com/introduction/)〔Stencil〕
   - [Repository](https://github.com/freshworks/crayons)
-- [IBM Carbon Design System](https://carbondesignsystem.com/)
-  ⇢ [StoryBook](https://web-components.carbondesignsystem.com/)
-  ⇢ [Repository](https://github.com/carbon-design-system/carbon-custom-elements)
-- [ING Lion Design System](https://github.com/ing-bank/lion) + [Lion Components](https://lion-web.netlify.app/)
-  ⇢ [Repository](https://github.com/ing-bank/lion)
-- [Nordhealth Design System](https://nordhealth.design/)
-- [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)
-- [Red Hat Design System](https://ux.redhat.com/)
-- [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
-- [Telekom Scale Design System](https://telekom.github.io/scale/) Stencil
-  ⇢ [Repository](https://github.com/telekom/scale)
+- [General Electric Edison™ Design System](https://edisondesignsystem.com/)
+- [IBM Carbon Design System](https://carbondesignsystem.com/)〔Lit〕〔React〕
+  - [StoryBook](https://web-components.carbondesignsystem.com/)
+  - [Repository](https://github.com/carbon-design-system/carbon-custom-elements)
+  - [React](https://react.carbondesignsystem.com/?path=/docs/getting-started-welcome--welcome)
+    - [Button.tsx](packages/react/src/components/Button/Button.tsx)
+    - [_button.scss](https://github.com/carbon-design-system/carbon/blob/main/packages/react/scss/components/button/_button.scss)
+- [ING Lion Design System](https://github.com/ing-bank/lion) + [Lion Components](https://lion-web.netlify.app/)〔Lit〕
+  - [Repository](https://github.com/ing-bank/lion)
+- [Microsoft Fluent UI](https://developer.microsoft.com/en-us/fluentui)〔Fast〕
+  - [Fast](https://learn.microsoft.com/en-us/fluent-ui/web-components/components/overview)
+  - [React](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)〔React〕
+  - [Repository](https://github.com/microsoft/fluentui)
+- [Nord Design System](https://nordhealth.design/)〔Lit〕
+- [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)〔Lit〕〔Angular〕〔React〕〔Vue〕
+  - [Repository](https://github.com/porsche-design-system/porsche-design-system)
+- [Red Hat Design System](https://ux.redhat.com/)〔Lit〕
+- [Telekom Scale Design System](https://telekom.github.io/scale/)〔Stencil〕
+  - [Repository](https://github.com/telekom/scale)
 - [VMware Clarity Design System](https://clarity.design/)
+- [Volkswagen GroupUI Design System](https://volkswagen.frontify.com/d/rzB71PwpjXgt)
 
 
 ## Sites build entirely with Web Components
