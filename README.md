@@ -22,6 +22,7 @@
 - [2021-05-26 — Links on Web Components](https://css-tricks.com/links-on-web-components/)
 - [2021-05-15 — Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
 - [2020-03-27 — The bright future of Web Components](https://maxart2501.github.io/web-components-talk/codemotion-rm20/#63)
+- [2020-02-07 — Web Components Basics and Performance Benefits](https://medium.com/@spkamboj/web-components-basics-and-performance-benefits-f7537c908075)
 - [2019-11-07 — The Firefox UI is now built with Web Components](https://briangrinstead.com/blog/firefox-webcomponents/)
 - [2019-04-08 — A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
 - [2018-09-06 — GitHub is using custom elements for their modal dialogs, autocomplete and display time.](https://githubengineering.com/removing-jquery-from-github-frontend/#custom-elements)
@@ -191,55 +192,48 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## Component Libraries
 
 - [GitHub Elements](https://github.com/github/github-elements)
-- [Google Material](https://github.com/material-components/material-components-web-components)
+- [Material Design Web Components](https://github.com/material-components/material-components-web-components)
+- [Chameleon UI](https://github.com/MaritzSTL/chameleon)
+  ⇢ [StoryBook](https://chameleon-design-system.netlify.app/?path=/story/*)
+- [Elix](https://component.kitchen/elix)
 - [Helix UI](https://helixdesignsystem.github.io/helix-ui/)
+- [Kor UI](https://kor-ui.com/)
+- [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
 - [Microsoft Fast](https://fast.design/)
 - [Microsoft Graph](https://github.com/microsoftgraph/microsoft-graph-toolkit)
   ⇢ [StoryBook](https://mgt.dev/)
 - [PatternFly Design System](https://github.com/patternfly/patternfly-elements)
-- [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)
+- [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
 - [SAP UI5](https://github.com/SAP/ui5-webcomponents)
+- [Vaadin](https://github.com/vaadin/web-components) ❤︎
+  ⇢ [Documentation](https://vaadin.com/docs/latest/ds/overview)
 
-### Built with [Lit-element](https://github.com/Polymer/lit-element)
+## Design Systems build with Web Components
 
-![lit-element](https://img.shields.io/badge/lib-lit--element-blue.svg?maxAge=60)
-
+- [Adobe Spectrum Design System](https://spectrum.adobe.com/)
 - [Astro Space UX Design System](https://www.astrouxds.com/)
 - [Auro Design System by Alaska Airlines](https://auro.alaskaair.com/)
 - [AXA Pattern Library](https://github.com/axa-ch/patterns-library)
   ⇢ [StoryBook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
-- [Blackstone UI](https://github.com/kjantzer/bui)
-- [Chameleon Design System](https://github.com/MaritzSTL/chameleon)
-  ⇢ [StoryBook](https://chameleon-design-system.netlify.app/?path=/story/*)
-- [Clever UI](https://github.com/CleverCloud/clever-components)
+- [Clever Cloud UI](https://github.com/CleverCloud/clever-components)
   ⇢ [StoryBook](https://www.clever-cloud.com/doc/clever-components/)
-- [Carbon by IBM](https://github.com/carbon-design-system/carbon-custom-elements)
+  ⇢ [Repository](https://github.com/CleverCloud/clever-components)
+- [Duet Design System by LocalTapiola](https://www.duetds.com/) Stencil
+- [Freshworks Crayons Design System](https://crayons.freshworks.com/introduction/) Stencil
+  - [Repository](https://github.com/freshworks/crayons)
+- [IBM Carbon Design System](https://carbondesignsystem.com/)
   ⇢ [StoryBook](https://web-components.carbondesignsystem.com/)
-- [Kor UI Design System](https://kor-ui.com/)
-- [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
-- [Lion by ING](https://github.com/ing-bank/lion) + [Lion Components](https://lion-web.netlify.app/)
+  ⇢ [Repository](https://github.com/carbon-design-system/carbon-custom-elements)
+- [ING Lion Design System](https://github.com/ing-bank/lion) + [Lion Components](https://lion-web.netlify.app/)
+  ⇢ [Repository](https://github.com/ing-bank/lion)
 - [Nordhealth Design System](https://nordhealth.design/)
-- [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
-- [Vaadin](https://github.com/vaadin/web-components) ❤︎
-  ⇢ [Documentation](https://vaadin.com/docs/latest/ds/overview)
-- [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
-- [ClarityCore by VMware](https://clarity.design/)
-- [Weightless](https://weightless.dev/)
-- [Zedix UI](https://github.com/zedix/zedix-ui)
-
-### Built with [Stencil](https://github.com/ionic-team/stencil)
-
-![lit-stencil](https://img.shields.io/badge/lib-lit--stencil-blue.svg?maxAge=60)
-
-- [Duet Design System by LocalTapiola](https://www.duetds.com/)
-- [Scale Design System By Telekom](https://github.com/telekom/scale)
-- [Elix](https://component.kitchen/elix)
-
-## Design Systems build with Web Components
-
-- [ING Lion](https://lion-web.netlify.app/)
-- [Adobe Spectrum](https://spectrum.adobe.com/)
+- [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)
 - [Red Hat Design System](https://ux.redhat.com/)
+- [Spectrum by Adobe](https://github.com/adobe/spectrum-web-components)
+- [Telekom Scale Design System](https://telekom.github.io/scale/) Stencil
+  ⇢ [Repository](https://github.com/telekom/scale)
+- [VMware Clarity Design System](https://clarity.design/)
+
 
 ## Sites build entirely with Web Components
 
@@ -248,12 +242,13 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Reddit](https://twitter.com/addyosmani/status/1677776509837402112?s=20) ([shreddit-mod-comment](https://sh.reddit.com/)) Lit
 - [RedHat](https://www.redhat.com/)(`<pfe-navigation>`)
 - [Bing](https://www.bing.com/)
-- [YouTube](https://www.youtube.com/) (`<ytd-video-preview>`)
+- [British Gas](https://www.britishgas.co.uk/)
 - [Photoshop for Web](https://web.dev/ps-on-the-web/)
 - [Fast](https://www.fast.design/)
 - [Ideanote](https://start.ideanote.io/)
 - [Simplr](https://simplr.company/)
 - [ViteMaDose](https://vitemadose.covidtracker.fr/)
+- [YouTube](https://www.youtube.com/) (`<ytd-video-preview>`)
 
 ## Sites using Lit elements
 
