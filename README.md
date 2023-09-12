@@ -173,7 +173,7 @@ customElements.defineLazy('my-element',  async () => (await import('my-element.j
 
 ## Libraries for building web components
 
-Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/board/) that simplify <code>Custom Elements</code> definition and content:
+Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/board/) that simplify <code>Custom Elements</code> definition and content.
 
 - [Lit](https://lit.dev/)
 - [Fast](https://github.com/microsoft/fast)
@@ -181,12 +181,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
 - [Atomico](https://github.com/atomicojs/atomico)
 - [Hybrids](https://hybrids.js.org/)
-- [µce+µhtml](https://github.com/WebReflection/uce)
-  - [µce vs lit-element](https://gist.github.com/WebReflection/ae3451c17c5e882bbc7f0714c14eefcd)
-  - [µce does @vue/lit things](https://codepen.io/WebReflection/pen/LYNJwoV?editors=0010)
-
-- [µce-template+µce-loader]
-> uce-template is a 100% Custom Elements based library, which goal is to help defining portable components once, but usable everywhere, directly in the HTML. Combined with µce-loader, it is possible to stream definitions, as these are found in the page, making uce-template an ideal static/server page companion for graceful, client-side, enhancement.
+- [µce (+µhtml+µce-template+µce-loader)](https://github.com/WebReflection/uce)
 
 ## Web Components UI Libraries
 
