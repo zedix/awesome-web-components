@@ -250,7 +250,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [MSN](https://www.msn.com/fr-fr)
 > A couple of years back, Microsoft re-built the MSN experience with the [Fluent UI Web Components based on FAST](https://learn.microsoft.com/en-us/fluent-ui/web-components/). This improved performance by 30%–50% over the previous React version Approximately 1,500 teams and/or projects within Microsoft have adopted FAST Web Components in the last three years (from 2022).
 - [Reddit](https://twitter.com/addyosmani/status/1677776509837402112?s=20) ([shreddit-mod-comment](https://sh.reddit.com/)) Lit
-- [RedHat](https://www.redhat.com/)(`<pfe-navigation>`)
+- [RedHat](https://www.redhat.com/) (`<pfe-navigation>`)
 - [Bing](https://www.bing.com/)
 - [British Gas](https://www.britishgas.co.uk/)
 - [Photoshop for Web](https://web.dev/ps-on-the-web/)
@@ -274,19 +274,13 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Frameworks & Routers
 
-- [Enhance](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie)
-> Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
-
-- [Rocket](https://rocket.modern-web.dev/)
-> A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
-
+- [Enhance](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
+- [Rocket](https://rocket.modern-web.dev/) – A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 - [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
   - [Introduction to WebC](https://11ty.rocks/posts/introduction-webc/)
-
 - [Appolo Elements](https://apolloelements.dev/)
 - [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
-- [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/)
-> The goal of Crossbow is to be the _Next.js_ for web-components.
+- [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/) – The goal of Crossbow is to be the _Next.js_ for web-components.
 
 ## Stats
 
