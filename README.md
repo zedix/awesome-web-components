@@ -142,6 +142,8 @@ They are a meta-specification made possible by the above [specifications](https:
   - [Creating Custom Form Controls with ElementInternals ](https://css-tricks.com/creating-custom-form-controls-with-elementinternals/)
 
 
+- [Cross-root ARIA](https://github.com/leobalter/cross-root-aria-delegation)
+
 - [Shadow DOM Delegate Focus](https://blog.whatwg.org/focusing-on-focus)
 > When the shadow root of an element has delegates focus flag set, focusing on the shadow host would automatically “delegates” focus to the first focusable element in the shadow tree instead.
 
@@ -154,7 +156,11 @@ They are a meta-specification made possible by the above [specifications](https:
   - [This feature is not (yet) a standard](https://css-tricks.com/custom-state-pseudo-classes-in-chrome/#this-feature-is-not-yet-a-standard)
 
 - [Children Changed Callback (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#children-changed-callback)
-- [Custom Attributes (Identified)](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
+
+- [Custom Attributes Proposal](https://github.com/WICG/webcomponents/issues/1029)
+  - [Custom Attributes (Identified)](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
+    - Enable the creation of reusable behaviors that can be attached to any HTML element (e.g. `<button material-ripple>Click Me</button>`).
+
 - [Composed Selection (Consensus/No Spec)](https://w3c.github.io/webcomponents-cg/2022.html#initial-api-summary-quick-api-proposal-0)
 - [Declarative Custom Element (Proposal)](https://w3c.github.io/webcomponents-cg/2022.html#declarative-custom-elements)
 
@@ -206,7 +212,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [Adobe Spectrum Design System](https://spectrum.adobe.com/)〔Lit〕
   - [Repository](https://github.com/adobe/spectrum-web-components)
-- [Astro Space UX Design System](https://www.astrouxds.com/)〔Lit〕
+- [Astro Space Design System](https://www.astrouxds.com/)〔Lit〕
 - [Auro Design System by Alaska Airlines](https://auro.alaskaair.com/)〔Lit〕
 - [AXA Pattern Library](https://github.com/axa-ch/patterns-library)〔Lit〕
   - [StoryBook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
@@ -230,8 +236,8 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
   - [React](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)〔React〕
   - [Repository](https://github.com/microsoft/fluentui)
 - [Nord Design System](https://nordhealth.design/)〔Lit〕
-- [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)〔Lit〕〔Angular〕〔React〕〔Vue〕
-  - [Repository](https://github.com/porsche-design-system/porsche-design-system)
+- [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)〔Stencil〕〔Angular〕〔React〕〔Vue〕
+  - [Repository](https://github.com/porsche-design-system/porsche-design-system/tree/main/packages/components/src/components)
 - [Red Hat Design System](https://ux.redhat.com/)〔Lit〕
 - [Telekom Scale Design System](https://telekom.github.io/scale/)〔Stencil〕
   - [Repository](https://github.com/telekom/scale)
