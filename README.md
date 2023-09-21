@@ -18,6 +18,7 @@
 - [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) ⭐ — by Rob Eisenberg from the FAST team
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
 - [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
+- [2022-10-21 — Let’s talk about web components](https://bradfrost.com/blog/post/lets-talk-about-web-components/)
 - [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
 - [2021-05-26 — Links on Web Components](https://css-tricks.com/links-on-web-components/)
 - [2021-05-15 — Container Queries in Web Components](https://mxb.dev/blog/container-queries-web-components/)
@@ -119,11 +120,17 @@ They are a meta-specification made possible by the above [specifications](https:
 - [JSON](https://www.chromestatus.com/feature/5749863620804608), [CSS](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/css-modules-v1-explainer.md), [HTML](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md) Modules
 
 
+## Latest Meeting Notes
+
+- [Web Components F2F 2023 Meeting Notes - 2022-04-17 and 2022-04-20](https://docs.google.com/document/d/1XWp4ndl5bthoxhnqR9Ly1SYvYcmXw1eTrappoMXsuH4/edit)
+
+
 ## Drafts, Reviews & Explainers
 
 - [Declarative Shadow DOM (DSD)](https://github.com/whatwg/html/pull/5465)
   - [Server-Side Rendering (SSR) API](https://github.com/webcomponents-cg/community-protocols/issues/7)
-  - [Capabilities needed and open questions #1009](https://github.com/WICG/webcomponents/issues/1009)
+  - [#1009 Capabilities needed and open questions](https://github.com/WICG/webcomponents/issues/1009)
+  - [#939 Declarative Adopted Stylesheets](https://github.com/WICG/webcomponents/issues/939)
   - [Can I use `shadowrootmode`?](https://caniuse.com/mdn-html_elements_template_shadowrootmode)
   - [Chrome 90 (`shadowroot` — non-standard)](https://developer.chrome.com/blog/new-in-chrome-90/#declarative)
   - [Chrome 111 (`shadowrootmode` — standardized)](https://developer.chrome.com/en/articles/declarative-shadow-dom/)
@@ -187,6 +194,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
 - [Atomico](https://github.com/atomicojs/atomico)
 - [Hybrids](https://hybrids.js.org/)
+- [Element-js](https://github.com/webtides/element-js)
 - [µce (+µhtml+µce-template+µce-loader)](https://github.com/WebReflection/uce)
 
 ## Web Components UI Libraries
