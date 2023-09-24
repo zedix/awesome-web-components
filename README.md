@@ -6,6 +6,7 @@
 
 ## Latest Articles
 
+- [2023-09-21 — The design system ecosystem](https://bradfrost.com/blog/post/the-design-system-ecosystem/) - "We now heartily recommend one specific technology to build a core design system for the web: Web Components."
 - [2023-08-23 — Pros and cons of using Shadow DOM and style encapsulation](https://www.matuzo.at/blog/2023/pros-and-cons-of-shadow-dom/)
 - [2023-08-23 — Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)
 - [2023-08-18 — Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)
