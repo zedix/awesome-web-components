@@ -244,6 +244,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
   - [Fast](https://learn.microsoft.com/en-us/fluent-ui/web-components/components/overview)
   - [React](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)〔React〕
   - [Repository](https://github.com/microsoft/fluentui)
+- [MixPanel Design System](https://design.mixpanel.com/#mp-button)〔[Panel](https://github.com/mixpanel/panel)〕
 - [Nord Design System](https://nordhealth.design/)〔Lit〕
 - [Porsche Design System](https://designsystem.porsche.com/latest/#/start-coding/vanilla-js)〔Stencil〕〔Angular〕〔React〕〔Vue〕
   - [Repository](https://github.com/porsche-design-system/porsche-design-system/tree/main/packages/components/src/components)
