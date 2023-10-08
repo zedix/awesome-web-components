@@ -6,6 +6,7 @@
 
 ## Latest Articles
 
+- [2023-10-01 — Photoshop is now on the web!](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
 - [2023-09-21 — The design system ecosystem](https://bradfrost.com/blog/post/the-design-system-ecosystem/) - "We now heartily recommend one specific technology to build a core design system for the web: Web Components."
 - [2023-08-23 — Pros and cons of using Shadow DOM and style encapsulation](https://www.matuzo.at/blog/2023/pros-and-cons-of-shadow-dom/)
 - [2023-08-23 — Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)
@@ -269,6 +270,8 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Simplr](https://simplr.company/)
 - [ViteMaDose](https://vitemadose.covidtracker.fr/)
 - [YouTube](https://www.youtube.com/) (`<ytd-video-preview>`)
+- [App Store for Windows](https://apps.microsoft.com/home?hl=en-us&gl=FR) [Source](https://x.com/justinfagnani/status/1710090787097346085?s=20)
+> The software giant has [ditched its old React codebase](https://www.theverge.com/2023/10/6/23906082/microsoft-windows-app-store-web-version-launch) from its previous web version of the Microsoft Store and replaced it with a modern web version that uses Shoelace, Lit, Vite, and a C# ASPNET backend.
 
 ## Sites using Lit elements
 
@@ -282,15 +285,20 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Firefox](https://github.com/mozilla/gecko-dev/blob/master/toolkit/content/widgets/lit-utils.mjs)
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/web-components/overview?hl=fr) (`<gmp-map>`)
 
-## Frameworks & Routers
+## Frameworks
 
 - [Enhance](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
 - [Rocket](https://rocket.modern-web.dev/) – A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 - [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
   - [Introduction to WebC](https://11ty.rocks/posts/introduction-webc/)
 - [Appolo Elements](https://apolloelements.dev/)
-- [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
 - [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/) – The goal of Crossbow is to be the _Next.js_ for web-components.
+
+## Routers
+
+- [App Tools Router (URLPattern) by @passle_](https://github.com/thepassle/app-tools/tree/master/router) used by [App Store for Windows](https://x.com/claviska/status/1711011601015341279?s=20)
+- [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
+- [Lit @lit-labs/router](https://github.com/lit/lit/tree/main/packages/labs/router)
 
 ## Stats
 
