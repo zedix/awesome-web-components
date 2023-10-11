@@ -7,7 +7,8 @@
 ## Latest Articles
 
 - [2023-10-01 — Photoshop is now on the web!](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
-- [2023-09-21 — The design system ecosystem](https://bradfrost.com/blog/post/the-design-system-ecosystem/) - "We now heartily recommend one specific technology to build a core design system for the web: Web Components."
+- [2023-09-21 — The design system ecosystem](https://bradfrost.com/blog/post/the-design-system-ecosystem/) — "We now heartily recommend one specific technology to build a core design system for the web: Web Components."
+- [2023-09-09 — W3C Web Sustainability Guidelines (WSG) 1.0](https://x.com/EisenbergEffect/status/1700576705256067380?s=20) — "When custom components are needed, prefer Web Components over framework components"
 - [2023-08-23 — Pros and cons of using Shadow DOM and style encapsulation](https://www.matuzo.at/blog/2023/pros-and-cons-of-shadow-dom/)
 - [2023-08-23 — Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)
 - [2023-08-18 — Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)
@@ -42,7 +43,7 @@
 - [2023-07-07 — This is going to be Lit](https://changelog.com/jsparty/284)
 
 
-## Example
+## Web Components: the native, interopable, component model of the web platform.
 
 ```js
 import sheet from './base.css' assert { type: 'css' };
@@ -296,9 +297,10 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Routers
 
-- [App Tools Router (URLPattern) by @passle_](https://github.com/thepassle/app-tools/tree/master/router) used by [App Store for Windows](https://x.com/claviska/status/1711011601015341279?s=20)
-- [FAST Router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
-- [Lit @lit-labs/router](https://github.com/lit/lit/tree/main/packages/labs/router)
+- [@vaadin/router](https://github.com/vaadin/router)
+- [@thepassle/app-tools/router.js](https://github.com/thepassle/app-tools/tree/master/router) (URLPattern), used by [App Store for Windows](https://x.com/claviska/status/1711011601015341279?s=20)
+- [@lit-labs/router](https://github.com/lit/lit/tree/main/packages/labs/router)
+- [@microsoft/fast-router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
 
 ## Stats
 
