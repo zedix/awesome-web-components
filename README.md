@@ -265,7 +265,9 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [RedHat](https://www.redhat.com/) (`<pfe-navigation>`)
 - [Bing](https://www.bing.com/)
 - [British Gas](https://www.britishgas.co.uk/)
-- [Photoshop for Web](https://web.dev/ps-on-the-web/)
+- [Photoshop for Web](https://photoshop.adobe.com/)
+  - [Photoshop is now on the web!](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
+  - [CSS Findings From Photoshop Web Version](https://ishadeed.com/article/photoshop-web-css/)
 - [Fast](https://www.fast.design/)
 - [Ideanote](https://start.ideanote.io/)
 - [Simplr](https://simplr.company/)
@@ -289,6 +291,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## Frameworks
 
 - [Enhance](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
+- [Hybrids](https://hybrids.js.org/)
 - [Rocket](https://rocket.modern-web.dev/) – A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 - [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
   - [Introduction to WebC](https://11ty.rocks/posts/introduction-webc/)
@@ -298,50 +301,13 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## Routers
 
 - [@vaadin/router](https://github.com/vaadin/router)
-- [@thepassle/app-tools/router.js](https://github.com/thepassle/app-tools/tree/master/router) (URLPattern), used by [App Store for Windows](https://x.com/claviska/status/1711011601015341279?s=20)
+- [@thepassle/app-tools/router.js](https://github.com/thepassle/app-tools/tree/master/router) ([URL Pattern Standard](https://urlpattern.spec.whatwg.org/)), used by [App Store for Windows](https://x.com/claviska/status/1711011601015341279?s=20)
 - [@lit-labs/router](https://github.com/lit/lit/tree/main/packages/labs/router)
 - [@microsoft/fast-router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
 
-## Stats
+## State
 
-- [Percentage of page loads that use custom element: over 18%](https://www.chromestatus.com/metrics/feature/timeline/popularity/1689)
-
-## Companies using Web Components
-
-Major technology organizations investing in the future of web components:
-
-- Adobe
-- Amazon
-- Apple
-- Blizzard
-- BYU
-- Caniuse
-- Comcast
-- CSS Tricks
-- EA
-- ESRI
-- Ford
-- GE
-- Github
-- GM
-- Google
-- IBM
-- Infragistics
-- ING
-- Internet Archive
-- Ionic
-- MSFT
-- NASA
-- Netlify
-- Nintendo
-- Penn State
-- RedHat
-- Salesforce
-- SAP
-- SpaceX
-- Ubisoft
-- VMware
-- …
+- [Haunted](https://github.com/matthewp/haunted)
 
 ## Accessibility
 
@@ -362,7 +328,8 @@ Major technology organizations investing in the future of web components:
 ## Resources
 
 - [📈 Custom Element Popularity (`CustomElementRegistryDefine` stats)](https://chromestatus.com/metrics/feature/timeline/popularity/1689)
-- [Are Web Components A Thing Yet](https://arewebcomponentsathingyet.com/)
+- [📈 Percentage of page loads that use custom element: over 19%](https://www.chromestatus.com/metrics/feature/timeline/popularity/1689)
+- [Companies using Web Components](https://arewebcomponentsathingyet.com/)
 - [Web Components Community](https://community.webcomponents.dev/)
 - [Web Components and lists](https://twitter.com/techytacos/status/1407068338644144155)
 - [Awesome Lit](https://github.com/web-padawan/awesome-lit)
