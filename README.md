@@ -6,6 +6,7 @@
 
 ## Latest Articles
 
+- [2023-10-25 — Web Components Will Outlive Your JavaScript Framework](https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/)
 - [2023-10-01 — Photoshop is now on the web!](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
 - [2023-09-21 — The design system ecosystem](https://bradfrost.com/blog/post/the-design-system-ecosystem/) — "We now heartily recommend one specific technology to build a core design system for the web: Web Components."
 - [2023-09-09 — W3C Web Sustainability Guidelines (WSG) 1.0](https://x.com/EisenbergEffect/status/1700576705256067380?s=20) — "When custom components are needed, prefer Web Components over framework components"
@@ -312,6 +313,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## Accessibility
 
 - [How Shadow DOM and accessibility are in conflict](https://alice.pages.igalia.com/blog/how-shadow-dom-and-accessibility-are-in-conflict/)
+- [Accessibility in the Vaadin Platform](https://vaadin.com/accessibility)
 
 ## Widgets / Standalone elements
 
@@ -336,3 +338,4 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Awesome Standalones](https://github.com/davatron5000/awesome-standalones)
 - [Starter Templates](https://webcomponents.today/starter-templates/)
 - [Stubbornella on WC/Wasm](https://news.ycombinator.com/item?id=34632657)
+- [FUD: Web components suck! No one is using them!](https://x.com/EisenbergEffect/status/1717188337713201197?s=20)
