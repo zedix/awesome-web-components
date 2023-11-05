@@ -6,6 +6,7 @@
 
 ## Latest Articles
 
+- [2023-10-25 — Web Components Tailwind And SSR](https://konnorrogers.com/posts/2023/web-components-tailwind-and-ssr/)
 - [2023-10-25 — Web Components Will Outlive Your JavaScript Framework](https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/)
 - [2023-10-01 — Photoshop is now on the web!](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
 - [2023-09-21 — The design system ecosystem](https://bradfrost.com/blog/post/the-design-system-ecosystem/) — "We now heartily recommend one specific technology to build a core design system for the web: Web Components."
@@ -206,14 +207,14 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [GitHub Elements](https://github.com/github/github-elements)
 - [Material Design Web Components](https://github.com/material-components/material-components-web-components)
 - [Chameleon UI](https://github.com/MaritzSTL/chameleon)
-  - [StoryBook](https://chameleon-design-system.netlify.app/?path=/story/*)
+  - [Storybook](https://chameleon-design-system.netlify.app/?path=/story/*)
 - [Elix](https://component.kitchen/elix)
 - [Helix UI](https://helixdesignsystem.github.io/helix-ui/)
 - [Kor UI](https://kor-ui.com/)
 - [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
 - [Microsoft Fast](https://fast.design/)
 - [Microsoft Graph](https://github.com/microsoftgraph/microsoft-graph-toolkit)
-  - [StoryBook](https://mgt.dev/)
+  - [Storybook](https://mgt.dev/)
 - [PatternFly Design System](https://github.com/patternfly/patternfly-elements)
 - [Shoelace](https://github.com/shoelace-style/shoelace) ❤︎
 - [SAP UI5](https://github.com/SAP/ui5-webcomponents)
@@ -224,19 +225,20 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [Adobe Spectrum Design System](https://spectrum.adobe.com/)〔Lit〕
   - [Repository](https://github.com/adobe/spectrum-web-components)
+  - [Storybook](https://opensource.adobe.com/spectrum-web-components/Storybook/)
 - [Astro Space Design System](https://www.astrouxds.com/)〔Lit〕
 - [Auro Design System by Alaska Airlines](https://auro.alaskaair.com/)〔Lit〕
 - [AXA Pattern Library](https://github.com/axa-ch/patterns-library)〔Lit〕
-  - [StoryBook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
+  - [Storybook](https://patterns.axa.ch/?path=/story/welcome--to-pattern-library)
 - [Clever Cloud UI](https://github.com/CleverCloud/clever-components)〔Lit〕
-  - [StoryBook](https://www.clever-cloud.com/doc/clever-components/)〔Lit〕
+  - [Storybook](https://www.clever-cloud.com/doc/clever-components/)〔Lit〕
   - [Repository](https://github.com/CleverCloud/clever-components)
 - [Duet Design System by LocalTapiola](https://www.duetds.com/)〔Stencil〕
 - [Freshworks Crayons Design System](https://crayons.freshworks.com/introduction/)〔Stencil〕
   - [Repository](https://github.com/freshworks/crayons)
 - [General Electric Edison™ Design System](https://edisondesignsystem.com/)
 - [IBM Carbon Design System](https://carbondesignsystem.com/)〔Lit〕〔React〕
-  - [StoryBook](https://web-components.carbondesignsystem.com/)
+  - [Storybook](https://web-components.carbondesignsystem.com/)
   - [Repository](https://github.com/carbon-design-system/carbon-custom-elements)
   - [React](https://react.carbondesignsystem.com/?path=/docs/getting-started-welcome--welcome)
     - [Button.tsx](packages/react/src/components/Button/Button.tsx)
