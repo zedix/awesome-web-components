@@ -1,8 +1,8 @@
-# Awesome Web Components [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_512x512.png" width="42" align="top" /> Awesome Web Components [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > This is a curated list of Web Components articles, design systems, libraries and resources.
 
-<img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_512x512.png" width="240" style="margin: 0 24px;" />
+
 
 ## Latest Articles
 
