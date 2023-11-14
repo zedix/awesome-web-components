@@ -6,7 +6,7 @@
 
 ## Latest Articles
 
-- [2023-11-09 — HTML web components](https://adactio.com/journal/20618) — On "Web augmentations"
+- [2023-11-09 — HTML web components](https://adactio.com/journal/20618) — On "[Web augmentations](https://blog.jim-nielsen.com/2023/html-web-components/)"
 - [2023-10-25 — Web Components Tailwind And SSR](https://konnorrogers.com/posts/2023/web-components-tailwind-and-ssr/)
 - [2023-10-25 — Web Components Will Outlive Your JavaScript Framework](https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/)
 - [2023-10-01 — Photoshop is now on the web!](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
