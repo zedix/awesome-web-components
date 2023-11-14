@@ -6,6 +6,7 @@
 
 ## Latest Articles
 
+- [2023-11-09 — HTML web components](https://adactio.com/journal/20618) — On "Web augmentations"
 - [2023-10-25 — Web Components Tailwind And SSR](https://konnorrogers.com/posts/2023/web-components-tailwind-and-ssr/)
 - [2023-10-25 — Web Components Will Outlive Your JavaScript Framework](https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/)
 - [2023-10-01 — Photoshop is now on the web!](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
@@ -194,6 +195,7 @@ customElements.defineLazy('my-element',  async () => (await import('my-element.j
 Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/board/) that simplify <code>Custom Elements</code> definition and content.
 
 - [Lit](https://lit.dev/)
+  - [Relit](https://github.com/43081j/relit) Reusable lit controllers by [James Garbutt](https://twitter.com/43081j)
 - [Fast](https://github.com/microsoft/fast)
 - [SkateJS](https://github.com/skatejs/skatejs)
 - [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
