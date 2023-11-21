@@ -6,6 +6,8 @@
 
 ## Latest Articles
 
+- [2023-11-18 — An Attempted Taxonomy of Web Components](https://www.zachleat.com/web/a-taxonomy-of-web-component-types/) HTML vs JavaScript Web Components
+- [2023-11-15 — Step into the light (DOM)](https://aaadaaam.com/notes/step-into-the-light-dom/)
 - [2023-11-09 — HTML web components](https://adactio.com/journal/20618) — On "[Web augmentations](https://blog.jim-nielsen.com/2023/html-web-components/)"
 - [2023-10-25 — Web Components Tailwind And SSR](https://konnorrogers.com/posts/2023/web-components-tailwind-and-ssr/)
 - [2023-10-25 — Web Components Will Outlive Your JavaScript Framework](https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/)
@@ -318,6 +320,10 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [How Shadow DOM and accessibility are in conflict](https://alice.pages.igalia.com/blog/how-shadow-dom-and-accessibility-are-in-conflict/)
 - [Accessibility in the Vaadin Platform](https://vaadin.com/accessibility)
+- [2023-07-09 — Web Components Accessibility FAQ](https://www.matuzo.at/blog/2023/web-components-accessibility-faq/)
+- [2023-02-22 — How Shadow DOM and accessibility are in conflict](https://alice.pages.igalia.com/blog/how-shadow-dom-and-accessibility-are-in-conflict/)
+- [Cross-root ARIA Reflection API explainer](https://github.com/Westbrook/cross-root-aria-reflection/blob/main/cross-root-aria-reflection.md)
+
 
 ## Widgets / Standalone elements
 
