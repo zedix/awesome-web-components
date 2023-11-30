@@ -3,9 +3,9 @@
 > This is a curated list of Web Components articles, design systems, libraries and resources.
 
 
-
 ## Latest Articles
 
+- [2023-11-27 — Web Components Eliminate JavaScript Framework Lock-in](https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/)
 - [2023-11-18 — An Attempted Taxonomy of Web Components](https://www.zachleat.com/web/a-taxonomy-of-web-component-types/) HTML vs JavaScript Web Components
 - [2023-11-15 — Step into the light (DOM)](https://aaadaaam.com/notes/step-into-the-light-dom/)
 - [2023-11-09 — HTML web components](https://adactio.com/journal/20618) — On "[Web augmentations](https://blog.jim-nielsen.com/2023/html-web-components/)"
@@ -315,6 +315,10 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 ## State
 
 - [Haunted](https://github.com/matthewp/haunted)
+
+## Stores
+
+- [Nanostores](https://github.com/nanostores/nanostores)
 
 ## Accessibility
 
