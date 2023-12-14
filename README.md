@@ -7,6 +7,7 @@
 
 - [2023-11-27 — Web Components Eliminate JavaScript Framework Lock-in](https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/)
 - [2023-11-18 — An Attempted Taxonomy of Web Components](https://www.zachleat.com/web/a-taxonomy-of-web-component-types/) HTML vs JavaScript Web Components
+- [2023-11-17 — HTML Web Components are Just JavaScript?](https://www.oddbird.net/2023/11/17/components/) — Let the light DOM handle content wherever possible.
 - [2023-11-15 — Step into the light (DOM)](https://aaadaaam.com/notes/step-into-the-light-dom/)
 - [2023-11-09 — HTML web components](https://adactio.com/journal/20618) — On "[Web augmentations](https://blog.jim-nielsen.com/2023/html-web-components/)"
 - [2023-10-25 — Web Components Tailwind And SSR](https://konnorrogers.com/posts/2023/web-components-tailwind-and-ssr/)
