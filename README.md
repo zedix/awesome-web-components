@@ -5,6 +5,7 @@
 
 ## Latest Articles
 
+- [2024-01-12 — A Modest Web Components Styling Proposal: An “I Know What I’m Doing” Selector ](https://frontendmasters.com/blog/a-modest-web-components-styling-proposal-an-i-know-what-im-doing-selector/)
 - [2023-11-27 — Web Components Eliminate JavaScript Framework Lock-in](https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/)
 - [2023-11-18 — An Attempted Taxonomy of Web Components](https://www.zachleat.com/web/a-taxonomy-of-web-component-types/) HTML vs JavaScript Web Components
 - [2023-11-17 — HTML Web Components are Just JavaScript?](https://www.oddbird.net/2023/11/17/components/) — Let the light DOM handle content wherever possible.
