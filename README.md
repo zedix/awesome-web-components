@@ -2,6 +2,8 @@
 
 > This is a curated list of Web Components articles, design systems, libraries and resources.
 
+> [!NOTE]
+> Write once, run anywhere
 
 ## Latest Articles
 
@@ -19,6 +21,7 @@
 - [2023-08-23 — Pros and cons of using Shadow DOM and style encapsulation](https://www.matuzo.at/blog/2023/pros-and-cons-of-shadow-dom/)
 - [2023-08-23 — Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)
 - [2023-08-18 — Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)
+- [2023-08-13 — Enhance vs. Lit vs. WebC…or, How to Server-Render a Web Component](https://www.spicyweb.dev/web-components-ssr-node/)
 - [2023-08-12 — Shadow Themes](https://dutchcelt.nl/posts/shadow-themes/)
 - [2023-08-07 — SEO and Web Components - 2023 Edition](https://dev.to/stuffbreaker/seo-and-web-components-2023-edition-3l6i)
 - [2023-07-20 — Hacker News Lit: Simple, fast web components](https://news.ycombinator.com/item?id=36806747)
