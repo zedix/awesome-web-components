@@ -5,8 +5,14 @@
 > [!NOTE]
 > Write once, run anywhere
 
+> [!NOTE]
+> Like any technology, they have their quirks and rough edges. But they are built into the browser and there are a lot of capabilities now, growing every year.
+> — [Rob Eisenberg](https://x.com/EisenbergEffect/status/1757755646613545453?s=20)
+
 ## Latest Articles
 
+- [2024-02-01 — Using Global Styles in Shadow DOM](https://eisenbergeffect.medium.com/using-global-styles-in-shadow-dom-5b80e802e89d)
+- [2024-01-17 — Web Components 2024 Winter Update](https://eisenbergeffect.medium.com/web-components-2024-winter-update-445f27e7613a)
 - [2024-01-12 — A Modest Web Components Styling Proposal: An “I Know What I’m Doing” Selector ](https://frontendmasters.com/blog/a-modest-web-components-styling-proposal-an-i-know-what-im-doing-selector/)
 - [2023-11-27 — Web Components Eliminate JavaScript Framework Lock-in](https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/)
 - [2023-11-18 — An Attempted Taxonomy of Web Components](https://www.zachleat.com/web/a-taxonomy-of-web-component-types/) HTML vs JavaScript Web Components
@@ -204,6 +210,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Lit](https://lit.dev/)
   - [Relit](https://github.com/43081j/relit) Reusable lit controllers by [James Garbutt](https://twitter.com/43081j)
 - [Fast](https://github.com/microsoft/fast)
+- [GitHub Catalyst](https://catalyst.rocks/)
 - [SkateJS](https://github.com/skatejs/skatejs)
 - [Stencil](https://stenciljs.com/) (23/08/2017) A web component compiler (powering Ionic 4)
 - [Atomico](https://github.com/atomicojs/atomico)
