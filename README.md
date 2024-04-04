@@ -12,6 +12,7 @@
 ## Latest Articles
 
 - [2024-02-01 — Using Global Styles in Shadow DOM](https://eisenbergeffect.medium.com/using-global-styles-in-shadow-dom-5b80e802e89d)
+- [2024-01-31 — The Good, The Bad, The Web Components](https://www.zachleat.com/web/good-bad-web-components)
 - [2024-01-17 — Web Components 2024 Winter Update](https://eisenbergeffect.medium.com/web-components-2024-winter-update-445f27e7613a)
 - [2024-01-12 — A Modest Web Components Styling Proposal: An “I Know What I’m Doing” Selector ](https://frontendmasters.com/blog/a-modest-web-components-styling-proposal-an-i-know-what-im-doing-selector/)
 - [2023-11-27 — Web Components Eliminate JavaScript Framework Lock-in](https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/)
@@ -33,6 +34,7 @@
 - [2023-07-20 — Hacker News Lit: Simple, fast web components](https://news.ycombinator.com/item?id=36806747)
 - [2023-07-19 — Dynamic Slots](https://www.abeautifulsite.net/posts/dynamic-slots/)
 - [2023-06-28 — If Web Components are so great, why am I not using them?](https://daverupert.com/2023/07/why-not-webcomponents/)
+- [2023-05-10 — How To Hydrate A Server-Side Rendered Web Component](https://www.dannymoerkerke.com/blog/how-to-hydrate-a-server-side-rendered-web-component/)
 - [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
 - [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) ⭐ — by Rob Eisenberg from the FAST team
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
@@ -309,7 +311,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Frameworks
 
-- [Enhance](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
+- [Enhance (SSR First)](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
 - [Hybrids](https://hybrids.js.org/)
 - [Rocket](https://rocket.modern-web.dev/) – A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 - [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
