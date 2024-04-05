@@ -31,6 +31,7 @@
 - [2023-08-13 — Enhance vs. Lit vs. WebC…or, How to Server-Render a Web Component](https://www.spicyweb.dev/web-components-ssr-node/)
 - [2023-08-12 — Shadow Themes](https://dutchcelt.nl/posts/shadow-themes/)
 - [2023-08-07 — SEO and Web Components - 2023 Edition](https://dev.to/stuffbreaker/seo-and-web-components-2023-edition-3l6i)
+- [2023-07-23 — `handleEvent()` is Mindblowing](https://thathtml.blog/2023/07/handleevent-is-mindblowing/) - [Tip](https://x.com/chrisshank23/status/1776018476249018686)
 - [2023-07-20 — Hacker News Lit: Simple, fast web components](https://news.ycombinator.com/item?id=36806747)
 - [2023-07-19 — Dynamic Slots](https://www.abeautifulsite.net/posts/dynamic-slots/)
 - [2023-06-28 — If Web Components are so great, why am I not using them?](https://daverupert.com/2023/07/why-not-webcomponents/)
