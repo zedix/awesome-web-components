@@ -320,16 +320,23 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Appolo Elements](https://apolloelements.dev/)
 - [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/) – The goal of Crossbow is to be the _Next.js_ for web-components.
 
-## Routers
+## Routers (URL Pattern Standard)
 
 - [@vaadin/router](https://github.com/vaadin/router)
 - [@thepassle/app-tools/router.js](https://github.com/thepassle/app-tools/tree/master/router) ([URL Pattern Standard](https://urlpattern.spec.whatwg.org/)), used by [App Store for Windows](https://x.com/claviska/status/1711011601015341279?s=20)
 - [@lit-labs/router](https://github.com/lit/lit/tree/main/packages/labs/router)
 - [@microsoft/fast-router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
 
-## State
+## State across multiple components (TC39 Signals)
 
 - [Haunted](https://github.com/matthewp/haunted)
+- [TC39 Signals: Proposal](https://eisenbergeffect.medium.com/a-tc39-proposal-for-signals-f0bedd37a335)
+- [TC39 Signals: Lit example](https://lit.dev/playground/#gist=a1b12ce26246d3562dda13718b59926c)
+
+```js
+const counter = new Signal.State(0);
+const isEven = new Signal.Computed(() => (counter.get() & 1) == 0);
+```
 
 ## Stores
 
