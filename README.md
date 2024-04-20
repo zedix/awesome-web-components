@@ -39,6 +39,7 @@
 - [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
 - [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) ⭐ — by Rob Eisenberg from the FAST team
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
+- [2023-02-17 — Declarative Shadow DOM: One shadow per root ⭐](https://developer.chrome.com/docs/css-ui/declarative-shadow-dom)
 - [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
 - [2022-10-21 — Let’s talk about web components](https://bradfrost.com/blog/post/lets-talk-about-web-components/)
 - [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
@@ -229,6 +230,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
   - [Storybook](https://chameleon-design-system.netlify.app/?path=/story/*)
 - [Elix](https://component.kitchen/elix)
 - [Helix UI](https://helixdesignsystem.github.io/helix-ui/)
+- [Kickstand UI](https://kickstand-ui.com/)
 - [Kor UI](https://kor-ui.com/)
 - [LrnWebComponents](https://github.com/elmsln/lrnwebcomponents)
 - [Microsoft Fast](https://fast.design/)
@@ -312,6 +314,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Frameworks
 
+- [Gracile](https://gracile.js.org/)
 - [Enhance (SSR First)](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
 - [Hybrids](https://hybrids.js.org/)
 - [Rocket](https://rocket.modern-web.dev/) – A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
@@ -322,16 +325,17 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Routers (URL Pattern Standard)
 
-- [@vaadin/router](https://github.com/vaadin/router)
 - [@thepassle/app-tools/router.js](https://github.com/thepassle/app-tools/tree/master/router) ([URL Pattern Standard](https://urlpattern.spec.whatwg.org/)), used by [App Store for Windows](https://x.com/claviska/status/1711011601015341279?s=20)
+- [@vaadin/router](https://github.com/vaadin/router)
 - [@lit-labs/router](https://github.com/lit/lit/tree/main/packages/labs/router)
 - [@microsoft/fast-router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
 
 ## State across multiple components (TC39 Signals)
 
 - [Haunted](https://github.com/matthewp/haunted)
-- [TC39 Signals: Proposal](https://eisenbergeffect.medium.com/a-tc39-proposal-for-signals-f0bedd37a335)
-- [TC39 Signals: Lit example](https://lit.dev/playground/#gist=a1b12ce26246d3562dda13718b59926c)
+- [Signals: TC39 Proposal](https://eisenbergeffect.medium.com/a-tc39-proposal-for-signals-f0bedd37a335)
+- [Signals: TC39 Prez (for Stage 1)](https://docs.google.com/presentation/d/1MJqndTS5RmTEwTbtLTPsEloc-a_MWR8daQINgDim2RA/edit#slide=id.g1f570b058be_0_901)
+- [Signals: Lit example](https://lit.dev/playground/#gist=a1b12ce26246d3562dda13718b59926c)
 
 ```js
 const counter = new Signal.State(0);
