@@ -39,7 +39,7 @@
 - [2023-04-17 — 2023 State of Web Components](https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16)
 - [2023-03-27 — Debunking Web Component Myths and Misconceptions](https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61) ⭐ — by Rob Eisenberg from the FAST team
 - [2023-03-09 — Faster dashboards with web components](https://blog.datawrapper.de/dashboard-performance-web-components/)
-- [2023-02-17 — Declarative Shadow DOM: One shadow per root ⭐](https://developer.chrome.com/docs/css-ui/declarative-shadow-dom)
+- [2023-02-17 — Declarative Shadow DOM: One shadow per root ⭐](https://developer.chrome.com/docs/css-ui/declarative-shadow-dom#one_shadow_per_root)
 - [2023-02-13 — Hello Web Components](https://eisenbergeffect.medium.com/hello-web-components-795ed1bd108e)
 - [2022-10-21 — Let’s talk about web components](https://bradfrost.com/blog/post/lets-talk-about-web-components/)
 - [2022-02-17 — All the Ways to Make a Web Component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)
@@ -151,6 +151,7 @@ They are a meta-specification made possible by the above [specifications](https:
 ## Drafts, Reviews & Explainers
 
 - [Declarative Shadow DOM (DSD)](https://github.com/whatwg/html/pull/5465)
+  - [DCE Demo Discussions](https://github.com/w3c/webcomponents-cg/discussions/87)
   - [Server-Side Rendering (SSR) API](https://github.com/webcomponents-cg/community-protocols/issues/7)
   - [#1009 Capabilities needed and open questions](https://github.com/WICG/webcomponents/issues/1009)
   - [#939 Declarative Adopted Stylesheets](https://github.com/WICG/webcomponents/issues/939)
@@ -314,6 +315,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Frameworks
 
+- [Tini](https://tinijs.dev/)
 - [Gracile](https://gracile.js.org/)
 - [Enhance (SSR First)](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
 - [Hybrids](https://hybrids.js.org/)
