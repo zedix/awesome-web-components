@@ -11,6 +11,8 @@
 
 ## Latest Articles
 
+- [2024-05-28 — Introducing WebUI 2.0](https://blogs.windows.com/msedgedev/2024/05/28/an-even-faster-microsoft-edge/) — Now rely on a repository of web components
+- [2024-05-24 — Introducing the Fabric UX System](https://blog.fabric.microsoft.com/en-us/blog/introducing-the-fabric-ux-system-our-primary-resource-for-extending-fabric-experiences)
 - [2024-02-01 — Using Global Styles in Shadow DOM](https://eisenbergeffect.medium.com/using-global-styles-in-shadow-dom-5b80e802e89d)
 - [2024-01-31 — The Good, The Bad, The Web Components](https://www.zachleat.com/web/good-bad-web-components)
 - [2024-01-17 — Web Components 2024 Winter Update](https://eisenbergeffect.medium.com/web-components-2024-winter-update-445f27e7613a)
