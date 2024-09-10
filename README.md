@@ -11,8 +11,10 @@
 
 ## Latest Articles
 
+- [2024-08-20 — Server-first Web Components with DSD, HTMX, and Islands](https://tympanus.net/codrops/2024/08/20/server-first-web-components-with-dsd-htmx-and-islands/)
 - [2024-05-28 — Introducing WebUI 2.0](https://blogs.windows.com/msedgedev/2024/05/28/an-even-faster-microsoft-edge/) — Now rely on a repository of web components
 - [2024-05-24 — Introducing the Fabric UX System](https://blog.fabric.microsoft.com/en-us/blog/introducing-the-fabric-ux-system-our-primary-resource-for-extending-fabric-experiences)
+- [2024-04-16 — A (probably not) unbiased critique of Web Components, among other things](https://conffab.com/presentation/a-probably-not-unbiased-critique-of-web-components-among-other-things/?gl=9ZhAruUq7kyx) — Keith Cirkel at Code '24
 - [2024-02-01 — Using Global Styles in Shadow DOM](https://eisenbergeffect.medium.com/using-global-styles-in-shadow-dom-5b80e802e89d)
 - [2024-01-31 — The Good, The Bad, The Web Components](https://www.zachleat.com/web/good-bad-web-components)
 - [2024-01-17 — Web Components 2024 Winter Update](https://eisenbergeffect.medium.com/web-components-2024-winter-update-445f27e7613a)
@@ -153,7 +155,8 @@ They are a meta-specification made possible by the above [specifications](https:
 ## Drafts, Reviews & Explainers
 
 - [Declarative Shadow DOM (DSD)](https://github.com/whatwg/html/pull/5465)
-  - [DCE Demo Discussions](https://github.com/w3c/webcomponents-cg/discussions/87)
+  - [DCE Demo Discussions](https://github.com/w3c/webcomponents-cg/discussions?discussions_q=DCE+Demo+)
+  - [DCE Proposal](https://gist.github.com/EisenbergEffect/8ec5eaf93283fb5651196e0fdf304555)
   - [Server-Side Rendering (SSR) API](https://github.com/webcomponents-cg/community-protocols/issues/7)
   - [#1009 Capabilities needed and open questions](https://github.com/WICG/webcomponents/issues/1009)
   - [#939 Declarative Adopted Stylesheets](https://github.com/WICG/webcomponents/issues/939)
