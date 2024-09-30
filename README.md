@@ -11,6 +11,10 @@
 
 ## Latest Articles
 
+- [2024-09-29 — "Web Components" Are Not A Feature - It's an umbrella term](https://x.com/EisenbergEffect/status/1840457447980609911)
+- [2024-09-28 — Web components are okay](https://nolanlawson.com/2024/09/28/web-components-are-okay/)
+- [2024-09-27 — Web Components Are Not the Future — They’re the Present](https://www.abeautifulsite.net/posts/web-components-are-not-the-future-they-re-the-present/)
+- [2024-09-27 — Web Components Are Not the Future](https://dev.to/ryansolid/web-components-are-not-the-future-48bh) — Web Components are a compromise through and through.
 - [2024-08-20 — Server-first Web Components with DSD, HTMX, and Islands](https://tympanus.net/codrops/2024/08/20/server-first-web-components-with-dsd-htmx-and-islands/)
 - [2024-05-28 — Introducing WebUI 2.0](https://blogs.windows.com/msedgedev/2024/05/28/an-even-faster-microsoft-edge/) — Now rely on a repository of web components
 - [2024-05-24 — Introducing the Fabric UX System](https://blog.fabric.microsoft.com/en-us/blog/introducing-the-fabric-ux-system-our-primary-resource-for-extending-fabric-experiences)
@@ -64,6 +68,7 @@
 
 ## Latest Podcasts
 
+- [2024-07-01 — Are web components worth it? (podcast)](https://offthemainthread.tech/episode/are-web-components-worth-it/)
 - [2023-07-07 — This is going to be Lit](https://changelog.com/jsparty/284)
 
 
@@ -337,8 +342,9 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [@lit-labs/router](https://github.com/lit/lit/tree/main/packages/labs/router)
 - [@microsoft/fast-router](https://github.com/microsoft/fast/tree/master/packages/web-components/fast-router)
 
-## State across multiple components (TC39 Signals)
+## Reactivity / State across multiple components (TC39 Signals)
 
+- [ArrowJS](https://www.arrow-js.com/)
 - [Haunted](https://github.com/matthewp/haunted)
 - [Signals: TC39 Proposal](https://eisenbergeffect.medium.com/a-tc39-proposal-for-signals-f0bedd37a335)
 - [Signals: TC39 Prez (for Stage 1)](https://docs.google.com/presentation/d/1MJqndTS5RmTEwTbtLTPsEloc-a_MWR8daQINgDim2RA/edit#slide=id.g1f570b058be_0_901)
