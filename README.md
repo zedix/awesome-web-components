@@ -3,7 +3,7 @@
 > This is a curated list of Web Components articles, design systems, libraries and resources.
 
 > [!NOTE]
-> Write once, run anywhere
+> Write once, run anywhere (reusable HTML elements)
 
 > [!NOTE]
 > Like any technology, they have their quirks and rough edges. But they are built into the browser and there are a lot of capabilities now, growing every year.
@@ -11,6 +11,8 @@
 
 ## Latest Articles
 
+- [2024-10-09 —Reactive State with Signals in Lit](https://justinfagnani.com/2024/10/09/reactive-state-with-signals-in-lit/)
+- [2024-10-01 — Web Components are not Framework Components — and That’s Okay](https://lea.verou.me/blog/2024/wcs-vs-frameworks/)
 - [2024-09-29 — "Web Components" Are Not A Feature - It's an umbrella term](https://x.com/EisenbergEffect/status/1840457447980609911)
 - [2024-09-28 — Web components are okay](https://nolanlawson.com/2024/09/28/web-components-are-okay/)
 - [2024-09-27 — Web Components Are Not the Future — They’re the Present](https://www.abeautifulsite.net/posts/web-components-are-not-the-future-they-re-the-present/)
@@ -325,8 +327,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 ## Frameworks
 
-- [Tini](https://tinijs.dev/)
-- [Gracile](https://gracile.js.org/)
+- [Brisa](https://brisa.build/) by [aralroca](https://aralroca.com/blog/reactive-web-components-with-ssr)
 - [Enhance (SSR First)](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
 - [Hybrids](https://hybrids.js.org/)
 - [Rocket](https://rocket.modern-web.dev/) – A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
@@ -334,6 +335,8 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
   - [Introduction to WebC](https://11ty.rocks/posts/introduction-webc/)
 - [Appolo Elements](https://apolloelements.dev/)
 - [CrossBow](https://crossbow-wc-2ayn6.ondigitalocean.app/) – The goal of Crossbow is to be the _Next.js_ for web-components.
+- [Tini](https://tinijs.dev/)
+- [Gracile](https://gracile.js.org/)
 
 ## Routers (URL Pattern Standard)
 
@@ -370,6 +373,7 @@ const isEven = new Signal.Computed(() => (counter.get() & 1) == 0);
 
 ## Widgets / Standalone elements
 
+- [Player](https://player.style/)
 - [Rhino Editor](https://github.com/konnorrogers/rhino-editor)
 - [Swiper Element](https://swiperjs.com/element)
 - [Mux Uploader](https://docs.mux.com/guides/video/mux-uploader)
