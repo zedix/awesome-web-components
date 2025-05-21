@@ -11,7 +11,9 @@
 
 ## Latest Articles
 
-- [2024-10-09 —Reactive State with Signals in Lit](https://justinfagnani.com/2024/10/09/reactive-state-with-signals-in-lit/)
+- [2024-11-07 — You Should Be Shipping a Manifest with Your Web Components](https://dev.to/stuffbreaker/you-should-be-shipping-a-manifest-with-your-web-components-2da0)
+- [2024-10-09 — Reactive State with Signals in Lit](https://justinfagnani.com/2024/10/09/reactive-state-with-signals-in-lit/)
+- [2024-10-05 — A Future for Web Components Without Shadow DOM](https://jjenzz.com/future-for-web-components-without-shadow-dom/)
 - [2024-10-01 — Web Components are not Framework Components — and That’s Okay](https://lea.verou.me/blog/2024/wcs-vs-frameworks/)
 - [2024-09-29 — "Web Components" Are Not A Feature - It's an umbrella term](https://x.com/EisenbergEffect/status/1840457447980609911)
 - [2024-09-28 — Web components are okay](https://nolanlawson.com/2024/09/28/web-components-are-okay/)
@@ -235,6 +237,11 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Element-js](https://github.com/webtides/element-js)
 - [µce (+µhtml+µce-template+µce-loader)](https://github.com/WebReflection/uce)
 
+## CSS / Autonomous Web Components
+
+- [2024-01-04 — CSS Web Components for marketing sites](https://hawkticehurst.com/2024/11/css-web-components-for-marketing-sites/)
+- [2021-04-26 — Custom Elements Without JavaScript?](https://blog.jim-nielsen.com/2021/custom-elements-without-js/)
+
 ## Web Components UI Libraries
 
 - [GitHub Elements](https://github.com/github/github-elements)
@@ -329,6 +336,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 
 - [Brisa](https://brisa.build/) by [aralroca](https://aralroca.com/blog/reactive-web-components-with-ssr)
 - [Enhance (SSR First)](https://enhance.dev/) by [Brian Leroux](https://begin.com/blog/posts/2023-02-23-enhancing-fwas-with-web-components) + [Enhance Movies Showcase (3.9 kb JS compressed)](https://begin.com/blog/posts/2023-07-26-introducing-enhance-movie) – Enhance provides file-based routing, reusable Custom Elements, a customizable utility CSS system, and mapped API data routes that get deployed to isolated, single-purpose cloud functions, no build steps to configure.
+- [Aurelia](https://aurelia.io/)
 - [Hybrids](https://hybrids.js.org/)
 - [Rocket](https://rocket.modern-web.dev/) – A modern web [setup](https://twitter.com/techytacos/status/1408507828063535109) for static sites with a sprinkle of JavaScript.
 - [Eleventy with WebC](https://www.11ty.dev/docs/languages/webc/)
@@ -374,11 +382,13 @@ const isEven = new Signal.Computed(() => (counter.get() & 1) == 0);
 ## Widgets / Standalone elements
 
 - [Player](https://player.style/)
+- [TinyBox](https://github.com/hlotvonen/tinybox)
 - [Rhino Editor](https://github.com/konnorrogers/rhino-editor)
 - [Swiper Element](https://swiperjs.com/element)
 - [Mux Uploader](https://docs.mux.com/guides/video/mux-uploader)
 - [Google Map Widget](https://cloud.google.com/blog/products/maps-platform/build-maps-faster-web-components)
 - [Stripe Pricing Table](https://stripe.com/docs/payments/checkout/pricing-table)
+- [Native dual range input](https://github.com/stanko/dual-range-input)
 
 ## History
 
