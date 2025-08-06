@@ -11,6 +11,7 @@
 
 ## Latest Articles
 
+- [2025-06-25 — Creating Truly Custom Events for Web Components](https://dev.to/stuffbreaker/creating-truly-custom-events-for-web-components-5bp5)
 - [2024-11-07 — You Should Be Shipping a Manifest with Your Web Components](https://dev.to/stuffbreaker/you-should-be-shipping-a-manifest-with-your-web-components-2da0)
 - [2024-10-09 — Reactive State with Signals in Lit](https://justinfagnani.com/2024/10/09/reactive-state-with-signals-in-lit/)
 - [2024-10-05 — A Future for Web Components Without Shadow DOM](https://jjenzz.com/future-for-web-components-without-shadow-dom/)
@@ -236,6 +237,7 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [Hybrids](https://hybrids.js.org/)
 - [Element-js](https://github.com/webtides/element-js)
 - [µce (+µhtml+µce-template+µce-loader)](https://github.com/WebReflection/uce)
+- [NudeUI](https://github.com/nudeui/element)
 
 ## CSS / Autonomous Web Components
 
