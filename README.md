@@ -391,6 +391,7 @@ const isEven = new Signal.Computed(() => (counter.get() & 1) == 0);
 - [Google Map Widget](https://cloud.google.com/blog/products/maps-platform/build-maps-faster-web-components)
 - [Stripe Pricing Table](https://stripe.com/docs/payments/checkout/pricing-table)
 - [Native dual range input](https://github.com/stanko/dual-range-input)
+- [videojs-story-view](https://github.com/hicay/videojs-story-view)
 
 ## History
 
