@@ -263,6 +263,12 @@ Some [tools/libraries](https://webcomponents.dev/blog/all-the-ways-to-make-a-web
 - [SAP UI5](https://github.com/SAP/ui5-webcomponents)
 - [Vaadin](https://github.com/vaadin/web-components) ❤︎
   - [Documentation](https://vaadin.com/docs/latest/ds/overview)
+- [Revo UI](https://github.com/revolist/revo-ui) - MIT-licensed controls for reports and dashboards, with a `<revo-ui>` adapter example.
+- [RevoGrid Charts](https://github.com/revolist/charts) - Interactive charts with a `<revo-chart>` adapter example. Commercial with a 30-day trial.
+- [RevoGrid Pivot](https://github.com/revolist/pivot) - Pivot tables and analytical reporting for the `<revo-grid>` custom element. Commercial with a 30-day trial.
+- [RevoGrid Gantt](https://github.com/revolist/gantt) - Gantt timelines, project tasks, and dependencies for the `<revo-grid>` custom element. Commercial with a 30-day trial.
+- [RevoGrid Kanban](https://github.com/revolist/kanban) - Workflow boards, swimlanes, and card editing for the `<revo-grid>` custom element. Commercial with a 30-day trial.
+- [RevoGrid Scheduler](https://github.com/revolist/scheduler) - Calendar and resource scheduling for the `<revo-grid>` custom element. Commercial with a 30-day trial.
 
 ## Design Systems build with Web Components
 
