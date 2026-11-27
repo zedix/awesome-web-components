@@ -383,6 +383,7 @@ const isEven = new Signal.Computed(() => (counter.get() & 1) == 0);
 
 ## Widgets / Standalone elements
 
+- [Practical Web Tools Calculator Widgets](https://github.com/CobraPi/embeddable-calculator-widgets)
 - [Player](https://player.style/)
 - [TinyBox](https://github.com/hlotvonen/tinybox)
 - [Rhino Editor](https://github.com/konnorrogers/rhino-editor)
